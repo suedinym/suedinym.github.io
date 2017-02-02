@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta charset="utf-8">
+	<title>Suedinym at Github</title>
+	<meta content="" name="description">
+	<meta content="sue" name="author"><!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"><!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/base.css" rel="stylesheet">
+	<!--  Font Awesome by Dave Gandy - http://fontawesome.io -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- JavaScript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<!-- Required for Accordion -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+	</script><!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="images/favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+	<!-- Header - fixed top menu
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<header>
+		<div>
+			<ul class="top-bar">
+				<li>
+					<a href="skel-index.html">SkinAndBones</a>
+				</li>
+		<!-- 		<li>
+					<a href="pages/gallery2.html">Gallery 2</a>
+				</li>
+				<li>
+					<a href="pages/gallery3.html">Gallery 3</a>
+				</li>
+				<li>
+					<a href="pages/gallery4.html">Gallery 4</a>
+				</li> -->
+			</ul>
+		</div>
+	</header>
+
+	<div class="container">
+	<div class="row">
+	<div class="oops centertxt">
+	<p class="oopsie">Oopsie!</p>
+	<p class="rascal centertxt">Some rascal seems to have deleted my github.io!</p>
+	<p class="check-out">(... but feel free to check out '<a href="skel-index.html"> SkinAndBones</a>'!)</p>
+	</div>
+	</div>
+	<!-- Share icons
+    ================================================== -->
+		<div class="find-me-bar">
+			<ul>
+		<a href="https://github.com/suedinym" target="blank" class="fa fa-github"></a>
+<a href="https://www.linkedin.com/in/susanjeanjensen" target="blank" class="fa fa-linkedin"></a>
+<a href="https://codepen.io/suedinym" target="blank" class="fa fa-codepen"></a>
+			</ul>
+		</div>
+	
+	</div><!-- end container -->
+	
+	<!-- Footer Container
+    ================================================== -->
+	<footer>
+		<div class="footer-container centertxt">
+		<hr>
+			<p><!-- Unless otherwise noted, all photography and artwork on this website is copyrighted and is not to be used without the permission of the copyright holder.<br> -->
+			 &copy; Susan Jensen, 2017 <a href="http://suedinym.com">www.suedinym.com</a><br>
+			All Rights Reserved</p>
+		</div>
+	</footer><!-- end footer container -->
+	<!-- Slideshow js
+================================================== -->
+	<script src="js/site.js">
+	</script> 
+ <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
