@@ -397,13 +397,11 @@ ul.breadcrumb li a:hover {
     color: #f1f1f1;
 }
 
-
-.sideClosebtn {
-    position: absolute;
-    top: 3%;
+a.sideClosebtn {
+	  position: absolute;
+    top: 2%;
     right: 5%;
-    font-size: 6rem;
-}
+    font-size: 2em;}
 
 @media screen and (max-height: 450px) {
   .overlay {

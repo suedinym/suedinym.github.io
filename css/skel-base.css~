@@ -77,10 +77,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Nunito', sans-serif;
-  color: #fff; 
-  background: #719394; 
-  background-image: url(../images/bg/grid-tile.jpg);}
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
 
 /* add class to any text or item to center*/
 
@@ -91,44 +89,12 @@ body {
 .centertxt {
 	text-align: center;
 }
- /*solid charcoal border*/
- .box,.partners, #it {border: 3px solid #414a49; }
- 
- /*the next bit dkgry currently repeats*/
- .dkgry, .tableRowSub, .topHeaderBar,.shareHeaderBar, footer, .newCourse, .parents, #nav {background: #414a49; background-image: url(../images/bg/tile-blk.jpg);}
- .dkgrn {background: #BF3030;
-background-image: url(../images/bg/grid-tile-dkgrn.jpg);
-/* margin:5px; this is for something in the about section*/}
- /*dotted bottom border*/
- #visionText_showHide, #missionText_showHide,#valuesText_showHide, #focusText_showHide, #goalsText_showHide, #atGlanceText_showHide {border: dashed; color: #fff; border-width: 0 0 1px;}
-/* #Basic colors
-================================================== */
-.red{background: #BF3030; }
-.orange{background: #f07502;}
-.yellow {background: #ffbc00;}
-.green{background: #00B366;}
-.blue{background: #0184cd;}
-.indigo{background: #5C5CA1;}
-.violet{background: #73458A;}
-.charcoal {background: #414a49; }
-
-.redtxt {color: #BF3030; }
-.orangetxt {color: #f07502;}
-.yellowtxt {color: #ffbc00;}
-.greentxt {color: #00B366;}
-.bluetxt {color: #0184cd;}
-.indigotxt {color: #5C5CA1;}
-.violettxt {color: #73458A;}
-.charcoaltxt {color: #414a49; }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
- font-family: 'Pangolin', cursive;
-
-
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -267,7 +233,7 @@ list-style-type: none;
 
 @media only screen and (min-width: 479px){
 	.find-us-bar ul li {
-		 float: left;
+		 float: right;
 	}
 }
 
@@ -325,30 +291,33 @@ ul.nav-horiz-a li a, ul.nav-horiz-b li a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
-
+	background: linear-gradient(#a6a6a5, #414a49);
+	border-width: 1px;
+	border-color: #ffe #aaab9c #ccc #fff;
+	border-style: solid;
 }
 .main-nav>ul.nav-horiz-a li a, .main-nav>ul.nav-horiz-b li a {
 	width: auto;
 }
 ul.nav-horiz-a li#active a, ul.nav-horiz-b li#active a {
-	
+	background: linear-gradient(#c6c6c6, #eaeaea);
 	color: #800000;
 }
 ul.nav-horiz-a li a:hover, ul.nav-horiz-a li#active a:hover, ul.nav-horiz-b li a:hover, ul.nav-horiz-b li#active a:hover {
-	color: #ccc;
-
+	color: #777;
+	background: linear-gradient(#eaeaea, #c6c6c6);
 	}
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
-	ul.nav-horiz-a li, ul.nav-horiz-b li {font-size: 0.8em; }
+	ul.nav-horiz-a li, ul.nav-horiz-b li, ul.nav-horiz-a li.nav-six, ul.nav-horiz-b li.nav-six {font-size: 0.8em; }
 	.logo {display: none;}
 	}
 
 	@media only screen and (max-width: 767px) {
 	
 		ul.nav-horiz-a li, ul.nav-horiz-b li { width: 25%;}
-	
+		ul.nav-horiz-a li.nav-six, ul.nav-horiz-b li.nav-six {width: 50%;}
    
 	}
 	/* breadcrumbs
@@ -428,13 +397,20 @@ ul.breadcrumb li a:hover {
     color: #f1f1f1;
 }
 
-
+/*
 .sideClosebtn {
     position: absolute;
     top: 3%;
     right: 5%;
     font-size: 6rem;
-}
+}*/
+
+/* check this below*/
+a.sideClosebtn {
+	  position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 2em;}
 
 @media screen and (max-height: 450px) {
   .overlay {

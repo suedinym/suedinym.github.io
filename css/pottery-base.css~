@@ -452,7 +452,7 @@ a.sideClosebtn {
  }
 @media only screen and (max-width: 479px) {
 	.overlay {
-	}
+	margin-top: 2rem;}
 	.sideClosebtn {
     right: 2%;
 }

@@ -50,7 +50,7 @@
 </form></li>
 </ul>
 		<ul><li class="left">
-		<span class="hamburger" onclick="openSideNav()">&#9776;  &nbsp; Shop <span class="collect">The Collection</span></span>
+		<span class="hamburger" onclick="openSideNav()">&#9776;  &nbsp; Shop <span>The Collection</span></span>
 		</li>
 		<li class="left">
 			<a href="#"><i class="fa fa-phone"></i></a>

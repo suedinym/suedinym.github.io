@@ -267,7 +267,7 @@ list-style-type: none;
 
 @media only screen and (min-width: 479px){
 	.find-us-bar ul li {
-		 float: left;
+		 float: right;
 	}
 }
 
