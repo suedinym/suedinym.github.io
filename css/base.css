@@ -163,6 +163,17 @@ list-style-type: none;
     text-decoration: none;
 }
 
+/* login, search and basket */
+li.right {
+		float: right;
+}
+li.right a {
+	display: block;
+	color: #285071;
+	padding: 0 1.5rem;
+	text-decoration: none;
+}
+
 .home {width: 2rem;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {

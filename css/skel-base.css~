@@ -167,6 +167,16 @@ list-style-type: none;
 	background-color: #414a49;
 }
 
+/* login */
+li.right {
+		float: right;
+			display: block;
+	color: #fff;
+	padding: 0 1.5rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
 /* Main content */
 .main {
     margin-top: 3rem; } /*Add a top margin to avoid content overlay  by the top nav*/
@@ -397,15 +407,6 @@ ul.breadcrumb li a:hover {
     color: #f1f1f1;
 }
 
-/*
-.sideClosebtn {
-    position: absolute;
-    top: 3%;
-    right: 5%;
-    font-size: 6rem;
-}*/
-
-/* check this below*/
 a.sideClosebtn {
 	  position: absolute;
     top: 2%;

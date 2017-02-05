@@ -163,6 +163,17 @@ list-style-type: none;
     text-decoration: none;
 }
 
+/* login, search and basket */
+li.right {
+		float: right;
+}
+li.right a, li.left a, .left-then-right a, .phone-number a {
+	display: block;
+	color: #285071;
+	padding: 0 1.5rem;
+	text-decoration: none;
+}
+
 .home {width: 2rem;}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
@@ -208,7 +219,7 @@ list-style-type: none;
 	  margin:  0 1rem;
 	 padding: 5px;
 	 color: black;
-	 	 opacity: 0.8;
+	 	 opacity: 0.6;
    background: white;
     font-size: 2.25rem;
      border-radius: 50%;

@@ -26,9 +26,10 @@ Two modal version at http://jsfiddle.net/3Vykc/
 		transition: opacity 400ms ease-in;
 		pointer-events: none;
 	}
-	.modalDialog img {
-		width: 95%;
-	}
+/*	.modalDialog img {
+			width: 95%;
+	
+	}*/
 	.modalDialog:target {
 		opacity: 1;
 		pointer-events: auto;
@@ -128,4 +129,98 @@ position: absolute;
     }	
    
     }
+    /* #LOGIN FORM
+================================================== */
+
+.login-container {
+	width: 25%;
+	border: 10px double #999;
+	border-radius: 15%;
+ }
+ 
+ .pottery-log {
+ 	border: 10px double #285071;;
+	}
+	
+.img-container {
+	text-align: center;
+}
+img.login-avatar {
+	width: 25%;
+	border-radius: 50%;
+	margin-top: 5%;
+}
+.login {
+	background-color:#404040;
+	color: white;
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
+	clear: both;
+}
+.login:hover {background-color:#595959; }
+.pottery-log .login {background-color: #3c78aa;}
+.pottery-log .login:hover {background-color:#5592c3; }
+
+.login-info input[type="text"], .login-info input[type="password"]
+{
+	background-color: #fff;
+	width: 95%;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	height: 20px;
+	padding: 6px 0 2px 5px;
+	margin: 8px;
+}
+.login-info input[type="text"]:focus, .login-info input[type="password"]:focus {
+	border: 1px solid #10a7d5;
+	background-color: whitesmoke;
+	outline: 0;
+}
+
+.pottery-log .login-info input[type="text"]:focus, .pottery-log .login-info input[type="password"]:focus {
+	 border: 1px solid  #db8e57;
+	
+}
+.login-info {padding-bottom: 5%;}
+
+.login-modal-close {
+	width: auto;
+	font-size: 15px;
+	padding: 5px 10px;
+	background-color: #808080;
+	color: white;
+	text-decoration: none;
+	border-radius: 5%;
+	float: right;
+}
+
+.pottery-log .login-modal-close {
+background-color: #db8e57;}
+
+
+.login-modal-close:hover {
+	background-color: #a6a6a6;
+	
+}
+
+.pottery-log .login-modal-close:hover {
+	background-color: #e09f6f;
+}
+.login-bottom-container {
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+span.psw {
+	padding-top: 16px;
+}
+@media screen and (max-width: 479px) {
+	span.psw {
+	font-size: 12px;
+}
+}
 

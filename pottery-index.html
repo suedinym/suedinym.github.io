@@ -10,19 +10,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Josefin+Slab" rel="stylesheet">
-	
-	<!-- CSS
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Josefin+Slab" rel="stylesheet"><!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/skeleton.css" rel="stylesheet">
 	<link href="css/pottery-base.css" rel="stylesheet">
 	<link href="css/simple-slideshow-styles.css" rel="stylesheet">
 	<link href="css/accordion-pottery.css" rel="stylesheet">
-	<link href="css/multiple-modal.css" rel="stylesheet">
-	<!--  Font Awesome by Dave Gandy - http://fontawesome.io -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- JavaScript
+	<link href="css/multiple-modal.css" rel="stylesheet"><!--  Font Awesome by Dave Gandy - http://fontawesome.io -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- Required for Accordion -->
 
@@ -34,68 +31,44 @@
 <body>
 	<!-- Header - fixed top menu
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<header>
-<div class="top-bar">
-<ul>
-	<!-- 	<ul class="bottom-mobile"> -->
-	<li class="right">
-			<a href="#openLoginModal"><i class="fa fa-user"></i></a>
-		</li>
-    <li class="right">
-		<a href="#"><i class="fa fa-shopping-basket"></i></a>
-		</i>
-		
-   <li class="right"><form>
-    <input class="search bottom-mobile" type="text" name="search" placeholder="Search..">
-</form></li>
-</ul>
-		<ul><li class="left">
-		<span class="hamburger" onclick="openSideNav()">&#9776;  &nbsp; Shop <span class="collect">The Collection</span></span>
-		</li>
-		<li class="left">
-			<a href="#"><i class="fa fa-phone"></i></a>
-		</li>
-		<li class="left">
-		<li class="phone-number"><a href="#">1-855-555-1212</a></li>
-		</li>
-	</ul>
-</div>
-<div class="bottom-bar">
-	<ul>
-<!-- 
-    		<li class="right">
-		<a href="#"><i class="fa fa-shopping-basket"></i></a>	</li>
-		<li class="right">
-			<a href="#openLoginModal"><i class="fa fa-user"></i></a>
-		</li> -->
-<li >
-  <form>
-    <input class="search" type="text" name="search" placeholder="Search..">
-</form></li> 
-	
-  
-	</ul>
-</div>
-<!-- 		<div>
-			<ul class="top-bar">
-				<li><span class="hamburger" onclick="openSideNav()">&#9776;  &nbsp; Shop The Collection</span></li>
-				<li><a href="#"><i class="fa fa-phone"></i></a></li>
-				<li><a href="#">1-855-555-1212</a></li>
-				</u>
-				<ul class="top-right">
-			
-			
-			
-			<li><form>
-    <input class="search" type="text" name="search" placeholder="Search..">
-</form></li>
-		
-			<li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
-			<li><a href="#openLoginModal"><i class="fa fa-user"></i></a></li>
-			
+ 	<header>
+		<div class="top-bar">
+			<ul> 
+				    <ul> 
+				 <li class="right">
+					<a href="#openLoginModal"><i class="fa fa-user"></i></a>
+				</li>
+				<li class="right">
+					<a href="#"><i class="fa fa-shopping-basket"></i></a> 
+				</li>
+				<li class="right">
+					<form>
+						<input class="search bottom-mobile" name="search" placeholder="Search.." type="text">
+					</form>
+				</li>
 			</ul>
-		</div> -->
-	</header><!-- sliding side navigation
+			<ul>
+				<li class="left"><span class="hamburger" onclick="openSideNav()">&#9776; &nbsp; Shop <span class="collect">The
+				Collection</span></span></li>
+				<li class="left-then-right">
+					<a href="#"><i class="fa fa-phone"></i></a>
+				</li>
+				<li class="left"></li>
+				<li class="phone-number">
+					<a href="#">1-855-555-1212</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bottom-bar">
+			<ul>
+				<li>
+					<form>
+						<input class="search" name="search" placeholder="Search.." type="text">
+					</form>
+				</li>
+			</ul>
+		</div>
+	</header> <!-- sliding side navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- The overlay -->
 	<!-- Overlay content -->
@@ -104,183 +77,222 @@
 		<div class="side-overlay-content">
 			<!-- ACCORDION
     ================================================== -->
-			<h1 id="accordion">Shop The Collection</h1>
+			 <h1 id="accordion">Shop The Collection</h1>
 			<aside class="accordion">
-				
-			<h1>Starter & Gift</h1>
-			<div>
-				<h2>Mugs & Cups</h2>
+				<h1>Starter &#38; Gift</h1>
 				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-mug8.html">8 oz Mug</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-mug-flare.html">12 oz Mug</a>
-						</li>
-					</ul>
-				</div>
-				<h2>Easy Gifts</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="placeholder.html">Coasters</a>
-						</li>
-						<li>
-							<a href="placeholder.html">Pet Bowls</a>
-						</li>
-						<li>
-							<a href="placeholder.html">Gift Certificates</a>
-						</li>
-						<li>
-							<a href="pottery-pg/wedding-registry.html">Wedding Registry</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<h1>Shop by Pattern</h1>
-			<div>
-				<h2>In-Stock</h2>
-				<div>
-					<h3>Country</h3>
+					<h2>Mugs &#38; Cups</h2>
 					<div>
 						<ul>
 							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">Horse</a>
+								<a href="pottery-pg/by-item-mug8.html">8 oz Mug</a>
 							</li>
 							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">Cow</a>
-							</li>
-							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">Pig</a>
-							</li>
-							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">Lamb</a>
+								<a href="pottery-pg/by-item-mug-flare.html">12 oz Mug</a>
 							</li>
 						</ul>
 					</div>
-					<h3>Coastal</h3>
+					<h2>Easy Gifts</h2>
 					<div>
 						<ul>
 							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">item</a>
+								<a href="placeholder.html">Coasters</a>
 							</li>
 							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">item</a>
-							</li>
-						</ul>
-					</div>
-					<h3>Traditional</h3>
-					<div>
-						<ul>
-							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">item</a>
+								<a href="placeholder.html">Pet Bowls</a>
 							</li>
 							<li>
-								<a href="pottery-pg/by-pattern-placeholder.html">item</a>
+								<a href="placeholder.html">Gift Certificates</a>
+							</li>
+							<li>
+								<a href="https://www.myregistry.com" target="blank">Wedding Registry</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<h2>Special Order</h2>
+				<h1>Shop by Pattern</h1>
 				<div>
-					<h3>Skier</h3>
+					<h2>In-Stock</h2>
+					<div>
+						<h3>Floral</h3>
+						<div>
+							<ul>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Spring Lily</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Tiger Lily</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Lotus</a>
+								</li>
+							</ul>
+						</div>
+						<h3>Tribal</h3>
+						<div>
+							<ul>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Desert Warrior</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">River Princess</a>
+								</li>
+							</ul>
+						</div>
+						<h3>Traditional</h3>
+						<div>
+							<ul>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Old Roses</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-placeholder.html">Blossoms</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<h2>Special Order</h2>
+					<div>
+						<h3>Geometric</h3>
+						<div>
+							<ul>
+								<li>
+									<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Waves</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Scallops</a>
+								</li>
+							</ul>
+						</div>
+						<h3>Miscellaneous</h3>
+						<div>
+							<ul>
+								<li>
+									<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Night Sky</a>
+								</li>
+								<li>
+									<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Cat</a>
+								</li>
+								<li>
+									<a href="placeholder.html">Ribbons</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<h1>Shop by Item</h1>
+				<div>
+					<h2>Mugs &#38; Cups</h2>
 					<div>
 						<ul>
 							<li>
-								<a href="pottery-pg/by-pattern-nonstock-placeholder.html">item</a>
+								<a href="pottery-pg/by-item-mug8.html">8 oz Mug</a>
 							</li>
 							<li>
-								<a href="pottery-pg/by-pattern-nonstock-placeholder.html">item</a>
-							</li>
-							<li>
-								<a href="pottery-pg/by-pattern-nonstock-placeholder.html">item</a>
+								<a href="pottery-pg/by-item-mug-flare.html">12 oz Mug</a>
 							</li>
 						</ul>
 					</div>
-					<h3>Miscellaneous</h3>
+					<h2>Plates</h2>
 					<div>
 						<ul>
 							<li>
-								<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Country Boy</a>
+								<a href="pottery-pg/by-item-placeholder.html">Dinner Plate</a>
 							</li>
 							<li>
-								<a href="pottery-pg/by-pattern-nonstock-placeholder.html">Country Girl</a>
+								<a href="pottery-pg/by-item-placeholder.html">Lunch Plate</a>
 							</li>
 							<li>
-								<a href="placeholder.html">Fleur de lis</a>
+								<a href="pottery-pg/by-item-placeholder.html">Salad Plate</a>
+							</li>
+						</ul>
+					</div>
+					<h2>Bowls</h2>
+					<div>
+						<ul>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Cereal Bowl</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Soup Bowl</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Desert Bowl</a>
+							</li>
+						</ul>
+					</div>
+					<h2>Serving ware</h2>
+					<div>
+						<ul>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Trays</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Serving Bowls</a>
+							</li>
+						</ul>
+					</div>
+					<h2>Kitchenware</h2>
+					<div>
+						<ul>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Pie Plates</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Deep Pie Platse</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-			</div>
-			<h1>Shop by Item</h1>
-			<div>
-				<h2>Mugs & Cups</h2>
+				<h1>Seasonal</h1>
+				<div>
+					<h2>Christmas</h2>
+					<div>
+						<ul>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Holly</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Partridge</a>
+							</li>
+						</ul>
+					</div>
+					<h2>Seasonal Items</h2>
+					<div>
+						<ul>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Easter</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Mother's Day</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Summer</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Halloween</a>
+							</li>
+							<li>
+								<a href="pottery-pg/by-item-placeholder.html">Thanksgiving</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<h1>Personalized</h1>
 				<div>
 					<ul>
 						<li>
-							<a href="pottery-pg/by-item-mug8.html">8 oz Mug</a>
+							<a href="pottery-pg/by-item-placeholder.html">Wedding &#38; Anniversary</a>
 						</li>
 						<li>
-							<a href="pottery-pg/by-item-mug-flare.html">12 oz Mug</a>
+							<a href="pottery-pg/by-item-placeholder.html">Home Accessories</a>
+						</li>
+						<li>
+							<a href="pottery-pg/by-item-placeholder.html">Custom</a>
 						</li>
 					</ul>
 				</div>
-				<h2>Plates</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Dinner Plate</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Lunch Plate</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Salad Plate</a>
-						</li>
-					</ul>
-				</div>
-				<h2>Bowls</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Cereal Bowl</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Soup Bowl</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Desert Bowl</a>
-						</li>
-					</ul>
-				</div>
-				<h2>Serving ware</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Trays</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Serving Bowls</a>
-						</li>
-					</ul>
-				</div>
-				<h2>Kitchenware</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Pie Plates</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Deep Pie Platse</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<h1>Seasonal</h1>
-			<div>
-				<h2>Christmas</h2>
+				<h1>Discounted</h1>
 				<div>
 					<ul>
 						<li>
@@ -291,235 +303,173 @@
 						</li>
 					</ul>
 				</div>
-				<h2>Seasonal Items</h2>
-				<div>
-					<ul>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Easter</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Mother's Day</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Summer</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Halloween</a>
-						</li>
-						<li>
-							<a href="pottery-pg/by-item-placeholder.html">Thanksgiving</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<h1>Personalized</h1>
-			<div>
-				<ul>
-					<li>
-						<a href="pottery-pg/by-item-placeholder.html">Wedding & Anniversary</a>
-					</li>
-					<li>
-						<a href="pottery-pg/by-item-placeholder.html">Home Accessories</a>
-					</li>
-					<li>
-						<a href="pottery-pg/by-item-placeholder.html">Custom</a>
-					</li>
-				</ul>
-			</div>
-			<h1>Discounted</h1>
-			<div>
-				<ul>
-					<li>
-						<a href="pottery-pg/by-item-placeholder.html">item</a>
-					</li>
-					<li>
-						<a href="pottery-pg/by-item-placeholder.html">item</a>
-					</li>
-				</ul>
-			</div>
-
 			</aside>
 		</div>
 	</div>
 	<div class="logo-header">
 		<img class="logo" src="images/pottery-logo.png">
-		
 		<h1>Collectible Stoneware Pottery</h1>
 		<h5>Smallville, KY</h5>
 	</div>
 	<div class="find-pottery-bar">
-	<a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square" ></i></a> 
-	<a href="https://www.pinterest.com/" target="blank"><i class="fa fa-pinterest-square"></i></a> 
-	<a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a> 
-	<a href="https://twitter.com/" target="blank"><i class="fa fa-twitter-square"></i></a> 
-</div>
-	<br class="clear">
+		<a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a> <a href=
+		"https://www.pinterest.com/" target="blank"><i class="fa fa-pinterest-square"></i></a> <a href=
+		"https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a> <a href="https://twitter.com/"
+		target="blank"><i class="fa fa-twitter-square"></i></a> 
+	</div><br class="clear"> 
 	<!-- Horizontal Navigation
     ================================================== -->
-	<nav>
+ 	<nav>
 		<div class="main-nav">
-					<ul class="nav-horiz-a">
-						<li id="active" class="nav-six">
-							<a href="index.html">Home</a>
-						</li>
-						<li class="nav-six">
-						<span onclick="openSideNav()"> <p>Shop!</p></span>
-						</li>
-						<li class="nav-six">
-							<a href="">About</a>
-						</li>
-						<!-- <li>
-							<a href="">New!</a>
-						</li> -->
-					</ul>
-					<ul class="nav-horiz-b">
-						<!-- <li>
-							<a href="">Press</a>
-						</li> -->
-						<li class="nav-six">
-							<a href="">Location</a>
-						</li>
-						<li class="nav-six">
-							<a href="">FAQ</a>
-						</li>
-						<li class="nav-six">
-							<a href="">Contact</a>
-						</li>
-					</ul>
-				</div>
-
-	</nav>
+			<ul class="nav-horiz-a">
+				<li class="nav-six" id="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="nav-six">
+					<span onclick="openSideNav()"></span>
+					<p><span onclick="openSideNav()">Shop!</span></p>
+				</li>
+				<li class="nav-six">
+					<a href="">About</a>
+				</li>
+			</ul>
+			<ul class="nav-horiz-b">
+			
+				<li class="nav-six">
+					<a href="">Location</a>
+				</li>
+				<li class="nav-six">
+					<a href="">FAQ</a>
+				</li>
+				<li class="nav-six">
+					<a href="">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav> 
 	<hr>
 	<!-- Breadcrumbs
     ================================================== -->
-    <ul class="breadcrumb">
-  <li><a href="pottery-index.html">Home</a></li>
-  <li>Six Tab Horizontal Navigation</li>
- </ul>
- <hr>
+	<ul class="breadcrumb">
+		<li>
+			<a href="pottery-index.html">Home</a>
+		</li>
+		<li>Your page name here</li>
+	</ul> 
+	<hr>
+	<div class="main">
 	<div class="container">
-		<div class="main">
-		<div class="row">
-		<div class="one-third column">
+		
+			<div class="row">
+			 	<div class="one-third column">
 					<h5>SkinAndBones-Skeleton</h5>
-					<p>SkinAndBones-Skeleton is a template based on the Skeleton boilerplate. It was developed to flesh out the basic boilerplate with common features of a basic website, such as a slideshow and navigation, turning it into more of a UI framework, for use in quickly comping up a functional website.</p>
-
-				</div>
-			<!-- A Better Simple Slideshow Used here
+					<p>SkinAndBones-Skeleton is a template based on the Skeleton boilerplate. It was developed to flesh out the basic
+					boilerplate with common features of a basic website, such as a slideshow and navigation, turning it into more of a
+					UI framework, for use in quickly comping up a functional website.</p>
+				</div> 
+				 <!-- A Better Simple Slideshow Used here
     ================================================== -->
-			<div class="one-third column">
-			<p>The basic Skeleton boilerplate is lightweight and simple. Skin And Bones Skeleton, not so much.</p>
-		
-				<div class="bss-slides num1" tabindex="1">
-					<figure>
-						<img src="images/slides/skel-slide1.jpg" width="100%">
-						<figcaption>
-							Anterior
-						</figcaption>
-					</figure>
-					<figure>
-						<img src="images/slides/skel-slide2.jpg" width="100%">
-						<figcaption>
-							Right Side
-						</figcaption>
-					</figure>
-					<figure>
-						<img src="images/slides/skel-slide3.jpg" width="100%">
-						<figcaption>
-							Posterior
-						</figcaption>
-					</figure>
-					<figure>
-						<img src="images/slides/skel-slide4.jpg" width="100%">
-						<figcaption>
-							Left Side
-						</figcaption>
-					</figure>
-				</div>
+		 		<div class="one-third column">
+					<p>The basic Skeleton boilerplate is lightweight and simple. Skin And Bones Skeleton, not so much.</p>
+					<div class="bss-slides num1" tabindex="1">
+						<figure>
+							<img src="images/slides/skel-slide1.jpg" width="100%">
+							<figcaption>
+								Anterior
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="images/slides/skel-slide2.jpg" width="100%">
+							<figcaption>
+								Right Side
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="images/slides/skel-slide3.jpg" width="100%">
+							<figcaption>
+								Posterior
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="images/slides/skel-slide4.jpg" width="100%">
+							<figcaption>
+								Left Side
+							</figcaption>
+						</figure>
+					</div>
 					<p>For links to more information on various added features, open the side navigation using the hamburger icon.</p>
-			</div><!-- slideshow  end-->
+				</div> 
+				<!-- slideshow  end-->
+		 		<div class="one-third column">
+					<h5>SkinAndBones-Skeleton</h5>
+					<p>SkinAndBones-Skeleton is a template based on the Skeleton boilerplate. It was developed to flesh out the basic
+					boilerplate with common features of a basic website, such as a slideshow and navigation, turning it into more of a
+					UI framework, for use in quickly comping up a functional website.</p>
+				</div> 
 			</div>
-				
-						<!-- login Modal starts here
-    ================================================== -->
-    
-    
-    
-    <!-- The Modal -->
-    <!-- note: id is anchor  -->
- 
-    	<div class="modalDialog" id="openLoginModal">
-    	<div class="login-container">
-    <div class="img-container">
-    <img src="images/gallery/image2.png" alt="Avatar">
-  </div> 
-			<form  action="">
- <!--  -->
-  		<!-- The Close Button -->
-				<!-- 	<a class="modal-close" href="#close">&times;</a> -->
-
-  
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button class="login" type="submit">Login</button>
-    <input type="checkbox" checked="checked"> Remember me
-
-
-  <div class="login-bottom-container" >
-   <a class="login-modal-close" href="#close">Cancel</a>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-</div>
-			<!-- 	login modal ends here -->
-				
-			</div>
+		</div><!-- end container -->
 		
-	</div><!-- end container -->
-	
+			
 		<!-- Footer Container
     ================================================== -->
-	<footer>
-		<div class="footer-container centertxt">
-		<hr>
-			<p><!-- Unless otherwise noted, all photography and artwork on this website is copyrighted and is not to be used without the permission of the copyright holder.<br> -->
-			 &copy; Susan Jensen, 2017 <a href="http://suedinym.com" target="blank">www.suedinym.com</a><br>
-			All Rights Reserved</p>
+		<footer>
+			<div class="footer-container centertxt">
+				<hr>
+				<p>
+				<!-- Unless otherwise noted, all photography and artwork on this website is copyrighted and is not to be used without the permission of the copyright holder.<br> -->
+				<a rel="nofollow" href="https://www.Vecteezy.com/" target="blank">Free Vector Art by www.Vecteezy.com</a><br>
+				 &copy; Susan Jensen, 2017 <a href="http://suedinym.com" target="blank">www.suedinym.com</a><br>
+				All Rights Reserved</p>
+			</div>
+		</footer><!-- end footer container -->	
+		</div> <!-- end main -->
+	<!-- login Modal starts here    ================================================== -->
+<div class="modalDialog" id="openLoginModal">
+	<div class="login-container pottery-log">
+		<div class="img-container"><img alt="Avatar" class="login-avatar" src=
+		"http://i701.photobucket.com/albums/ww17/suedinym/pens/avatar-f_zps9q1uch04.png"></div>
+		<div class="login-info">
+			<form action="">
+				<label><b>Username</b></label> <input name="uname" placeholder="Enter Username" required="" type="text">
+				<label><b>Password</b></label> <input name="psw" placeholder="Enter Password" required="" type="password">
+				<button class="login" type="submit">Login</button>
+				<div class="login-bottom-container">
+					<span class="psw">Forgot <a href="#">password?</a> &nbsp; &#124; &nbsp; Create <a href="#">Account</a></span>
+				</div><a class="login-modal-close" href="#close">Cancel</a> <input checked="checked" type="checkbox"> Remember me
+			</form>
 		</div>
-	</footer><!-- end footer container -->
-	<!-- Slideshow js
+	</div>
+</div><!--    login modal ends here -->
+		 <!-- Slideshow js
 ================================================== -->
-	<script src="js/site.js">
-	</script> 
-	<script src="js/accordion.js">
-	</script> 
-	<script src="js/hammer.min.js">
-	</script><!-- for swipe support on touch interfaces -->
-	 
-	<script src="js/better-simple-slideshow.min.js">
-	</script> 
-	<script>
-	   var opts = {
-	      auto : {
-	          speed : 3500, 
-	          pauseOnHover : true
-	      },
-	      fullScreen : false, 
-	      swipe : true
-	   };
-	   makeBSS('.num1', opts);
+		<script src="js/site.js">
+		</script> 
+		<script src="js/accordion.js">
+		</script> 
+		<script src="js/hammer.min.js">
+		</script><!-- for swipe support on touch interfaces -->
+		 
+		<script src="js/better-simple-slideshow.min.js">
+		</script> 
+		<script>
+		     var opts = {
+		        auto : {
+		            speed : 3500, 
+		            pauseOnHover : true
+		        },
+		        fullScreen : false, 
+		        swipe : true
+		     };
+		     makeBSS('.num1', opts);
 
-	   var opts2 = {
-	      auto : false,
-	      fullScreen : true,
-	      swipe : true
-	   };
-	   makeBSS('.num2', opts2);
-	</script> <!-- End Document
+		     var opts2 = {
+		        auto : false,
+		        fullScreen : true,
+		        swipe : true
+		     };
+		     makeBSS('.num2', opts2);
+		</script> <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 </body>
 </html>
