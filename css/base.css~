@@ -122,8 +122,14 @@ p {
   color: white;
   font-size: 12rem;
    }
-   .oopsie {text-shadow: .5rem .5rem 1.5rem rgba(255, 255, 255, 0.7);}
+   .oopsie {
+   	
+
+font-family: 'Rock Salt', cursive;
+/*font-family: 'Caveat Brush', cursive;*/
+   	text-shadow: .5rem .5rem 1.5rem rgba(255, 255, 255, 0.7);}
    .rascal {
+   	font-family: 'Handlee', cursive;
    	 color: white;
   font-size: 2rem;
    }
@@ -167,7 +173,7 @@ list-style-type: none;
 li.right {
 		float: right;
 }
-li.right a, li.left a, .left-then-right a, .phone-number a {
+li.right a {
 	display: block;
 	color: #285071;
 	padding: 0 1.5rem;

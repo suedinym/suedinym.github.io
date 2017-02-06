@@ -34,10 +34,10 @@
 				<li>
 					<a href="skel-index.html">SkinAndBones</a>
 				</li>
-		<!-- 		<li>
-					<a href="pages/gallery2.html">Gallery 2</a>
+	 		<li>
+					<a href="pottery-index.html">Smallville Pottery</a>
 				</li>
-				<li>
+				<!--	<li>
 					<a href="pages/gallery3.html">Gallery 3</a>
 				</li>
 				<li>
@@ -74,8 +74,10 @@
 		<hr>
 			<p><!-- Unless otherwise noted, all photography and artwork on this website is copyrighted and is not to be used without the permission of the copyright holder.<br> -->
 			 &copy; Susan Jensen, 2017 <a href="http://suedinym.com" target="blank">www.suedinym.com</a><br>
-			All Rights Reserved</p>
-		</div>
+			All Rights ReservedAll Rights Reserved
+			<br>
+			<a href="credits.html" target="blank">Credits</a>
+			</p>
 	</footer><!-- end footer container -->
 	<!-- Slideshow js
 ================================================== -->

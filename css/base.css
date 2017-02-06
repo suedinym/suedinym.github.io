@@ -121,9 +121,16 @@ p {
   	margin-top: 20%;
   color: white;
   font-size: 12rem;
+  font-family: 'Rock Salt', cursive;
    }
-   .oopsie {text-shadow: .5rem .5rem 1.5rem rgba(255, 255, 255, 0.7);}
+   .oopsie {
+   	
+
+
+/*font-family: 'Caveat Brush', cursive;*/
+   	text-shadow: .5rem .5rem 1.5rem rgba(255, 255, 255, 0.7);}
    .rascal {
+   	font-family: 'Handlee', cursive;
    	 color: white;
   font-size: 2rem;
    }
