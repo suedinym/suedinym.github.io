@@ -139,8 +139,8 @@ position: absolute;
  }
  
  .pottery-log {
- 	border: 10px double #285071;;
-	}
+ 	border: 10px double #285071;
+ 	}
 	
 .img-container {
 	text-align: center;
@@ -199,7 +199,8 @@ img.login-avatar {
 }
 
 .pottery-log .login-modal-close {
-background-color: #db8e57;}
+background-color: #db8e57;
+margin-top: 15px;}
 
 
 .login-modal-close:hover {

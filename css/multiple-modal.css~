@@ -139,7 +139,9 @@ position: absolute;
  }
  
  .pottery-log {
- 	border: 10px double #285071;;
+ 	border: 10px double #285071;
+ 	
+ 	 background-color: #f6f2e7;
 	}
 	
 .img-container {
@@ -180,6 +182,11 @@ img.login-avatar {
 	background-color: whitesmoke;
 	outline: 0;
 }
+
+.pottery-log .login-info input[type="text"]:focus, .pottery-log .login-info input[type="password"]:focus {
+	 border: 1px solid  #db8e57;
+	
+}
 .login-info {padding-bottom: 5%;}
 
 .login-modal-close {
@@ -194,7 +201,8 @@ img.login-avatar {
 }
 
 .pottery-log .login-modal-close {
-background-color: #db8e57;}
+background-color: #db8e57;
+margin-top: 15px;}
 
 
 .login-modal-close:hover {
