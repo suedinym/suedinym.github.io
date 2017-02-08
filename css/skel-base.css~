@@ -176,7 +176,7 @@ list-style-type: none;
 li.right {
 	margin: 0;
 	padding: 0;
-	background-color: green;
+
 		float: right;
 			display: block;
 	
