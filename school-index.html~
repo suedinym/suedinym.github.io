@@ -186,9 +186,9 @@
 		</li>
 	</ul>
 </div>
-<h2>Financial Transparency</h2>
+<h2 class="mid-org">Financial Transparency</h2>
 <div>
-	<ul>
+	<ul class="lt-org">
 		<li>
 			<a href="#">Budget</a>
 		</li>
@@ -453,7 +453,7 @@
 		
 			<!-- A Better Simple Slideshow Used here
     ================================================== -->
-			<div class="two-thirds column">
+			<div class="two-thirds columns">
 			
 				<div class="bss-slides num1" tabindex="1">
 					<figure>
@@ -483,17 +483,57 @@
 				</div>
 				
 			</div><!-- slideshow  end-->
+			
 				<div class="one-third column">
 					<h5>Additions:</h5>
 				
 				<ul>
-				<li>Starting the 2016-2017 school year, RCPS furthered its one-to-one initiative by providing Macbooks to students in grades 6-9. Click to learn more about RCPS's Digital Learning Initiative.</li>
+			
 				<li>The before and after school program includes fun activities, scheduled homework time, arts and crafts and is conveniently located at your child’s school. Click to learn more.</li>
 				<li>If your child will be 5 years of age before September 1st, NOW is the time to sign up for Kindergarten registration for the 2017-2018 school year!</li>
-				<li>Join us for an evening of conversation about diversity and how to meet the needs of each student in the RCPS. Click the Parent Diversity Conversation Nights headline for more information about the event</li>
+	
 				</ul>
 				</div>
+			
 			</div>
+			<div class="row">
+			<div class="one-third column">
+				<div class="box red">
+				<ul>
+			
+				<li><img class="section-icon" src="images/school/news.png" /></li>
+					<li><h5>RCPS News</h5></li>
+				</ul>
+				<br class="clear" />
+					<p>Starting the 2016-2017 school year, RCPS furthered its one-to-one initiative by providing Macbooks to students in grades 6-9. Click to learn more about RCPS's Digital Learning Initiative.</p>
+					<a href="#">[ More ]</a>
+				</div>
+			</div>
+			<div class="one-third column">
+				<div class="box orange">
+					<ul>
+				<li><img class="section-icon" src="images/school/diversity-event.png" /></li>
+				<li><h5>Events</h5></li>
+				</ul>
+				<br class="clear" />
+									<p>Join us for an evening of conversation about diversity and how to meet the needs of each student in the RCPS. Click link below for more information about the event.</p>
+									<a href="#">[ More ]</a>
+				</div>
+			</div>
+			<div class="one-third column">
+							<div class="box yellow">
+								<ul>
+				<li><img class="section-icon" src="images/school/art.png" /></li>
+				<li>	<h5>Spotlight</h5></li>
+				</ul>
+				<br class="clear" />
+					
+				<p>The before and after school program includes fun activities, scheduled homework time, arts and crafts and is conveniently located at your child’s school. Click to learn more..</p>
+					<a href="#">[ More ]</a>
+				</div>
+			</div>
+</div>
+			
 		</div>
 	</div><!-- end container -->
 
@@ -505,7 +545,7 @@
 <div>
 <p> Riverdale County Public Schools, 4425 Penny Lane, Riverdale, Pennsylvania 19448 | <a href="tel:+1-502-585-5961">1-855-555-0198</a><br />
     Equal Opportunity/Affirmative Action Employer Offering Equal Educational Opportunities</p>
-    Don't see what you need? <a href="tel:+1-502-585-5961">Call</a> or <a href="mailto:RCPS.factline@jefferson.kyschools.us">email</a> the RCPS FactLine at <a href="tel:+1-502-585-5961">1-855-555-0179</a>
+    Don't see what you need? <a href="tel:+1-502-585-5961">Call</a> or <a href="mailto:RCPS.factline@example.us">email</a> the RCPS FactLine at <a href="tel:+1-502-585-5961">1-855-555-0179</a>
    <div class="it"> 
    <p class="dkgrn" id="it"> The Information Technology Department has implemented a general IT maintenance window beginning at 3 p.m. and ending at 5 p.m. every Friday.
       During this time users may experience unavailability of applications and/or services.
