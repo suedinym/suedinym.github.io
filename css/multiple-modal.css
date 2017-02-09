@@ -30,6 +30,8 @@ Two modal version at http://jsfiddle.net/3Vykc/
 			width: 95%;
 	
 	}*/
+	
+	img.skel-gal {width: 95%;}
 	.modalDialog:target {
 		opacity: 1;
 		pointer-events: auto;

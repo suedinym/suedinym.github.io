@@ -688,6 +688,7 @@ display: block; float: left;
 footer p, footer a {
 	color: #4d4d4d;
 	font-size: 1.2rem;
+	margin-bottom: 5%;
 }
 footer a:hover {
 	color: #BBBBBB;

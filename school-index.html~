@@ -68,7 +68,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- The overlay -->
 	<!-- Overlay tent -->
-	<div class="overlay dkgry" id="slidingSideNav">
+	<div class="overlay" id="slidingSideNav">
 		<a class="sideClosebtn" href="javascript:void(0)" onclick="closeSideNav()">&times;</a>
 		<div class="side-overlay-content">
 			<!-- ACCORDION
@@ -453,7 +453,7 @@
 		
 			<!-- A Better Simple Slideshow Used here
     ================================================== -->
-			<div class="two-thirds columns">
+			<div class="two-thirds column">
 			
 				<div class="bss-slides num1" tabindex="1">
 					<figure>

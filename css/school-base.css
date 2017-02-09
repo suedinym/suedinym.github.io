@@ -464,11 +464,7 @@ ul.breadcrumb li a:hover {
 /* sliding  vertical navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#slidingTopNav.overlay {
-    height: 0%;
-    width: 100%;
-   
-}
+
 
 #slidingSideNav.overlay {
     height: 100%;
@@ -476,7 +472,7 @@ ul.breadcrumb li a:hover {
 }
 
 .overlay { 
-  
+  background-color: tomato;
     position: fixed;
     z-index: 4;
     top: 0;
@@ -486,11 +482,11 @@ ul.breadcrumb li a:hover {
     overflow-y: hidden;
     transition: 0.5s;}
 
-.top-overlay-content,.side-overlay-content {
+.side-overlay-content {
 	 position: relative;
-    top: 5%;
+  /* top: 5%;*/
     width: 100%;
-    margin-top: 3rem;
+     margin-top: 10%;
 }
 
 .top-overlay-content  {
@@ -517,7 +513,7 @@ ul.breadcrumb li a:hover {
 
 .sideClosebtn {
     position: absolute;
-    top: 3%;
+    top: 1%;
     right: 5%;
     font-size: 6rem;
 }

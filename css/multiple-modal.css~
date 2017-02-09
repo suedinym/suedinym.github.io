@@ -140,9 +140,7 @@ position: absolute;
  
  .pottery-log {
  	border: 10px double #285071;
- 	
- 	 background-color: #f6f2e7;
-	}
+ 	}
 	
 .img-container {
 	text-align: center;

@@ -14,7 +14,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="../css/normalize.css" rel="stylesheet">
 	<link href="../css/skeleton.css" rel="stylesheet">
-	<link href="../css/skelbase.css" rel="stylesheet">
+	<link href="../css/skel-base.css" rel="stylesheet">
 	<link href="../css/multiple-modal.css" rel="stylesheet"><!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- Favicon

@@ -96,7 +96,7 @@ border-bottom:   1px dashed #ccc;
 box-shadow: inset 0 0 9px 5px rgba(0, 0, 0, 0.4);
 }
  /*solid charcoal border*/
- .box,.partners, #it {border: 3px solid #414a49; }
+ .box,.partners, #it, .bss-slides {border: 3px solid #414a49; }
  
  /*the next bit dkgry currently repeats*/
  .dkgry, .tableRowSub, .topHeaderBar,.shareHeaderBar, footer, .newCourse, .parents, #nav {background: #414a49; background-image: url(../images/bg/tile-blk.jpg);}
@@ -464,11 +464,7 @@ ul.breadcrumb li a:hover {
 /* sliding  vertical navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#slidingTopNav.overlay {
-    height: 0%;
-    width: 100%;
-   
-}
+
 
 #slidingSideNav.overlay {
     height: 100%;
@@ -476,7 +472,7 @@ ul.breadcrumb li a:hover {
 }
 
 .overlay { 
-  
+  background-color: tomato;
     position: fixed;
     z-index: 4;
     top: 0;
@@ -486,11 +482,11 @@ ul.breadcrumb li a:hover {
     overflow-y: hidden;
     transition: 0.5s;}
 
-.top-overlay-content,.side-overlay-content {
+.side-overlay-content {
 	 position: relative;
-    top: 5%;
+  /* top: 5%;*/
     width: 100%;
-    margin-top: 3rem;
+     margin-top: 10%;
 }
 
 .top-overlay-content  {
@@ -517,8 +513,8 @@ ul.breadcrumb li a:hover {
 
 .sideClosebtn {
     position: absolute;
-    top: 3%;
-    right: 5%;
+    top: 1%;
+    right: 7%;
     font-size: 6rem;
 }
 
