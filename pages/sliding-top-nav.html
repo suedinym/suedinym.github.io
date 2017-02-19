@@ -39,7 +39,9 @@
 <header>
 <div>
 <ul class="top-bar">
-  <li>	<span class="hamburger" onclick="openTopNav()">&#9776;</span></li>
+  <li>	<!-- <span class="hamburger" onclick="openTopNav()">&#9776;</span> -->
+   <a href="#slidingTopNav">&#9776;</a> 
+  </li>
    <li><a href="../skel-index.html"><img class="home" src="../images/icons/home.svg" alt="Home"></a></li>
   <li><a href="gallery1.html">Gallery 1</a></li>
   <li><a href="gallery2.html">Gallery 2</a></li> 
@@ -57,7 +59,9 @@
     <a href="#">Services</a>
     <a href="#">Clients</a>
     <a href="#">Contact</a>
-    <a href="javascript:void(0)" class="topClosebtn" onclick="closeTopNav()">&times;</a>
+  <!--   <a href="javascript:void(0)" class="topClosebtn" onclick="closeTopNav()">&times;</a> -->
+    <a class="topClosebtn" href="#">&times;</a>
+  
   </div>
 </div>
 <header>
@@ -134,7 +138,7 @@
 
 	<!-- Slideshow js
 ================================================== -->
-<script src="../js/site.js"></script>
+<!-- <script src="../js/site.js"></script> -->
 	<script src="../js/hammer.min.js">	</script><!-- for swipe support on touch interfaces -->
 	<script src="../js/better-simple-slideshow.min.js">	</script> 
 	<script>

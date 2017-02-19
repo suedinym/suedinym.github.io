@@ -37,7 +37,8 @@
 		 	<a href="#openLoginModal"><img class="bones" src="images/icons/bones.png" alt=""></a> 
 				<!--	<a href="#openLoginModal"><i class="fa fa-user"></i></a> -->
 				</li>
-				<li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li>
+				<!-- <li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li> -->
+				 <a  class="hamburger" href="#slidingSideNav">&#9776;</a> 
 				<li>
 					<a href="index.html"><img alt="Home" class="home" src="images/icons/home.svg"></a>
 				</li>
@@ -53,6 +54,9 @@
 				<li>
 					<a href="pages/gallery4.html">Gallery 4</a>
 				</li>
+				<li>
+					<a href="pages/faq.html">FAQ page</a>
+				</li>
 			</ul>
 		</div>
 	</header><!-- sliding side navigation
@@ -60,7 +64,7 @@
 	<!-- The overlay -->
 	<!-- Overlay content -->
 	<div class="overlay" id="slidingSideNav">
-		<a class="sideClosebtn" href="javascript:void(0)" onclick="closeSideNav()">&times;</a>
+	<!-- 	<a class="sideClosebtn" href="javascript:void(0)" onclick="closeSideNav()">&times;</a> -->   <a class="sideClosebtn" href="#">&times;</a>
 		<div class="side-overlay-content">
 			<!-- ACCORDION
     ================================================== -->
@@ -93,10 +97,16 @@
 							</ul>
 						</div>
 						<h3>Sliding Overlay</h3>
-						<div>
+							<div>
 							<ul>
 								<li>
 									<a href="http://www.w3schools.com/howto/howto_js_sidenav.asp" target="blank">W3schools -How-to</a>
+								</li>
+								<li>
+									<a href="http://codepen.io/suedinym/pen/pRmQPO" target="blank">CSS Sliding Side Navagation</a>
+								</li>
+								<li>
+									<a href="http://codepen.io/suedinym/pen/QdRZJg" target="blank">CSS Sliding Top Navagation</a>
 								</li>
 							</ul>
 						</div>
@@ -140,6 +150,18 @@
 								</li>
 								<li>
 									<a href="http://codepen.io/suedinym/pen/EZQLLe" target="blank">Six Part</a>
+								</li>
+							
+							</ul>
+						</div>
+								<h2>Accordion FAQ</h2>
+						<div>
+							<ul>
+								<li>
+									<a href="https://tympanus.net/codrops/2012/02/21/accordion-with-css3/" target="blank">Codrops CSS3 Radio Button Accordion </a>
+								</li>
+								<li>
+									<a href="https://tympanus.net/codrops/licensing/" target="blank">Codrops Licensing</a>
 								</li>
 							
 							</ul>
@@ -339,8 +361,8 @@
 </div>
 	<!-- Slideshow js
 ================================================== -->
-	<script src="js/site.js">
-	</script> 
+<!-- 	<script src="js/site.js">
+	</script>  -->
 	<script src="js/accordion.js">
 	</script> 
 	<script src="js/hammer.min.js">

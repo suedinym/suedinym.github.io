@@ -69,6 +69,12 @@
 								<li>
 									<a href="http://www.w3schools.com/howto/howto_js_sidenav.asp" target="blank">W3schools -How-to</a>
 								</li>
+								<li>
+									<a href="http://codepen.io/suedinym/pen/pRmQPO" target="blank">CSS Sliding Side Navagation</a>
+								</li>
+								<li>
+									<a href="http://codepen.io/suedinym/pen/QdRZJg" target="blank">CSS Sliding Top Navagation</a>
+								</li>
 							</ul>
 						</div>
 						<h3>js Media Query How-to</h3>
@@ -165,7 +171,7 @@
 				<h1>Images</h1>
 				<p>Public Domain skeleton Images -Dover images. <br><br>Royalty-free color photos from the 28 CD version of Masterclips, &copy; 1998.<br><br>
 			<a href="http://www.commandlinefu.com/commands/view/1390/convert-all-wmf-images-to-svg-recursively-ignoring-file-extension-case" target="blank">	Royalty-free vector images, also from Masterclips, were first batch converted from wmf to svg format using the command line.</a>
-			<a href="https://sourceforge.net/projects/gimpdbpplugin/" target="blank" >Then they were batch resized and converted to png format with a GIMP extension, David's Batch processor.</a>
+			<a href="https://sourceforge.net/projects/gimpdbpplugin/" target="blank" >Then they were batch resized and converted to png format with a GIMP extension, David's Batch processor.</a><br><br>
 				Background images, svg images and svg icons made in GIMP or Inkscape.<br>
 				<a rel="nofollow" href="https://www.Vecteezy.com/" target="blank">Login Avatar - Free Vector Art by www.Vecteezy.com</a><br> <a href="https://pixabay.com" target="blank">Large slide and other photos from  Pixabay.com.</a> </p>
 			

@@ -146,7 +146,8 @@ list-style-type: none;
     }
   
 .top-bar li a, .hamburger, .top-header-bar li a {
-    display: block;
+	float: left;
+    display: inline-block;
     color: white;
     padding: 1.2rem;
     text-decoration: none;
@@ -366,21 +367,22 @@ ul.breadcrumb li a:hover {
 /* sliding  vertical navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#slidingTopNav.overlay {
+#slidingTopNav {
     height: 0%;
     width: 100%;
    
 }
+#slidingTopNav:target {height:100%;}
 
-#slidingSideNav.overlay {
+#slidingSideNav {
     height: 100%;
     width: 0%;
 }
+#slidingSideNav:target {width:40%;}
 
 .overlay { 
-    margin-top: 4.5rem;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     background-color: #262626; /* rgb(0,0,0);*/
@@ -428,8 +430,8 @@ a.sideClosebtn {
   .overlay a {font-size: 2rem;}
  }
 @media only screen and (max-width: 479px) {
-	.overlay {
-	margin-top: 2rem;}
+	#slidingSideNav:target {width:100%;}
+
 	.sideClosebtn {
     right: 2%;
 }
