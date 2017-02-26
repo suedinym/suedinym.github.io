@@ -41,7 +41,7 @@ $(this).prop("hash");
     // open accordion
      $(href).prop("checked", true);
          //scroll
-   var accordionTop =  $(hash).closest('section');
+   var accordionTop =  $(href).closest('section');
    $('html, body').animate({
             scrollTop: $(accordionTop).offset().top
        }, 500);

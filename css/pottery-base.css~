@@ -432,7 +432,7 @@ ul.breadcrumb li a:hover {
 
 
 
-#slidingSideNav.overlay {
+#slidingSideNav {
     height: 100%;
     width: 0%;
 }
@@ -662,8 +662,8 @@ footer a:hover {
 .copyright, .copyright a {
 	font-size: .9rem;
 }
-@media screen and (max-height: 450px) {
-.footer-container {margin-bottom: 10%;}
+@media screen and (max-height: 350px) {
+.footer-container {margin-bottom: 1%;}
 }
 
 

@@ -40,7 +40,7 @@
 		<div>
 			<ul class="top-bar dkgry">
 			
-			 <a  href="#slidingSideNav">&#9776;</a> 
+			 <a class="hamburger" href="#slidingSideNav">&#9776;</a> 
 			<!-- 	<li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li> -->
 			<!-- 	<li>
 					<a href="index.html"><img alt="Home" class="home" src="images/icons/home.svg"></a>
@@ -67,10 +67,10 @@
 			</ul>
 		</div>
 	</header><!-- sliding side navigation
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  ––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- The overlay -->
 	<!-- Overlay tent -->
-	<div class="overlay dkgry" id="slidingSideNav">
+	<div class="overlay" id="slidingSideNav">
 	  <a class="sideClosebtn" href="#">&times;</a>
 		<!-- <a class="sideClosebtn" href="javascript:void(0)" onclick="closeSideNav()">&times;</a> -->
 		<div class="side-overlay-content">
@@ -488,11 +488,11 @@
 			</div><!-- slideshow  end-->
 			
 				<div class="one-third column">
-					<h5>Additions:</h5>
+					<h5>Kindergarten registration:</h5>
 				
 				<ul>
 			
-				<li>The before and after school program includes fun activities, scheduled homework time, arts and crafts and is conveniently located at your child’s school. Click to learn more.</li>
+				
 				<li>If your child will be 5 years of age before September 1st, NOW is the time to sign up for Kindergarten registration for the 2017-2018 school year!</li>
 	
 				</ul>

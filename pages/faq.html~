@@ -31,7 +31,7 @@
   <!-- Required for Accordion -->
    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script>
-	/*For local link TO radio accordion from css overlay -getting the hash doesn't work, because the overlay target is a hash and becomes the default */
+	/*For local link TO radio accordion from css overlay -getting the hash doesn't work, because the overlay target is a hash and becomes the default  url*/
 jQuery(document).ready(function() {
 
 $('.open-local-faq').click(function(){
@@ -41,7 +41,7 @@ $(this).prop("hash");
     // open accordion
      $(href).prop("checked", true);
          //scroll
-   var accordionTop =  $(hash).closest('section');
+   var accordionTop =  $(href).closest('section');
    $('html, body').animate({
             scrollTop: $(accordionTop).offset().top
        }, 500);
@@ -72,7 +72,7 @@ $(this).prop("hash");
     <a href="#slidingSideNav">&#9776;</a> 
   
   </li>
-   <li><a href="../index.html"><img class="home" src="../images/icons/home.svg" alt="Home"></a></li>
+   <li><a href="../index.html"><i class="home fa fa-home" ></a></li>
 
 </div>
 </header>

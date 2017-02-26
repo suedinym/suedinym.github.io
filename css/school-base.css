@@ -31,7 +31,7 @@
 - Misc
 - Media Queries
 */
-
+.bss-slides {border: 6px solid red;}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -62,8 +62,9 @@ body {
 border-bottom:   1px dashed #ccc;
 box-shadow: inset 0 0 9px 5px rgba(0, 0, 0, 0.4);
 }
+.bss-slides{ margin-bottom: 3rem;}
  /*solid charcoal border*/
- .box,.partners, #it, .bss-slides {border: 3px solid #414a49; }
+ .box,.partners, #it, .bss-slides {border: 6px solid #414a49;}
  
  /*the next bit dkgry currently repeats*/
  .dkgry, .tableRowSub, .topHeaderBar,.shareHeaderBar, footer, .newCourse, .parents, #nav {background: #414a49; background-image: url(../images/bg/tile-blk.jpg);}
@@ -436,17 +437,18 @@ ul.breadcrumb li a:hover {
 #slidingSideNav {
     height: 100%;
     width: 0%;
+    
 }
 
 #slidingSideNav:target {width:40%;}
 
 .overlay { 
-  background-color: tomato;
+ /* background-color: tomato;*/
     position: fixed;
     z-index: 4;
     top: 0;
     left: 0;
-    background-color: #262626; /* rgb(0,0,0);*/
+   /*  background-color: #262626; rgb(0,0,0);*/
    /* background-color: rgba(0,0,0, 0.9);*/
     overflow-y: hidden;
     transition: 0.5s;}
@@ -488,17 +490,20 @@ ul.breadcrumb li a:hover {
     right: 3%;
     font-size: 6rem;
 }
-
+/*
 @media screen and (max-height: 450px) {
   .overlay {
-   overflow-y: auto;}
+   overflow-y: auto;
   .overlay a {font-size: 2rem;}
- }
+ 
+ }*/
 @media only screen and (max-width: 479px) {
 	#slidingSideNav:target {width:100%;}
 
 	.sideClosebtn {
+
     right: 2%;
+    font-size: .75rem;
 }
 }
  /* # boxes

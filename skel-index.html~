@@ -40,7 +40,7 @@
 				<!-- <li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li> -->
 				 <a  class="hamburger" href="#slidingSideNav">&#9776;</a> 
 				<li>
-					<a href="index.html"><img alt="Home" class="home" src="images/icons/home.svg"></a>
+					<a href="index.html"><i class="fa fa-home" ></i><!-- <img alt="Home" class="home" src="images/icons/home.svg"> --></a>
 				</li>
 				<li>
 					<a href="pages/gallery1.html">Gallery 1</a>
@@ -150,6 +150,18 @@
 								</li>
 								<li>
 									<a href="http://codepen.io/suedinym/pen/EZQLLe" target="blank">Six Part</a>
+								</li>
+							
+							</ul>
+						</div>
+								<h2>Accordion FAQ</h2>
+						<div>
+							<ul>
+								<li>
+									<a href="https://tympanus.net/codrops/2012/02/21/accordion-with-css3/" target="blank">Codrops CSS3 Radio Button Accordion </a>
+								</li>
+								<li>
+									<a href="https://tympanus.net/codrops/licensing/" target="blank">Codrops Licensing</a>
 								</li>
 							
 							</ul>

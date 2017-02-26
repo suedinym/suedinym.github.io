@@ -58,6 +58,8 @@ body {
 .centertxt {
 	text-align: center;
 }
+
+.bss-slides {border: 6px solid #414a49;}
 /* #Basic colors
 ================================================== */
 	
@@ -662,8 +664,8 @@ footer a:hover {
 .copyright, .copyright a {
 	font-size: .9rem;
 }
-@media screen and (max-height: 450px) {
-.footer-container {margin-bottom: 10%;}
+@media screen and (max-height: 350px) {
+.footer-container {margin-bottom: 1%;}
 }
 
 

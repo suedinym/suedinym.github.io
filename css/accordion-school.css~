@@ -24,8 +24,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* percentages listed next to the background colors are from the chart here: http://www.w3schools.com/colors/colors_picker.asp  Listing them this way should make it relatively easy to swap them out for a different base color (hue), while maintaining the same color values.*/
  #accordion { 
-   padding: 0 0 1rem 2rem;c
-   margin: 0;
+   padding: 0 0 1rem 2rem;
+   margin: 3rem 0 0 0;
    font-size: 1.5em;}
 .accordion h1 { 
    padding: 1.5rem 2rem;
@@ -88,3 +88,10 @@ margin-top: 1rem;}
 }
 
 .accordion a {font-size: 1rem;}
+
+@media only screen and (max-width: 479px) {
+	.accordion h1 { 
+   padding: 1rem 2rem;
+   font-size: 1.25em;
+}
+}
