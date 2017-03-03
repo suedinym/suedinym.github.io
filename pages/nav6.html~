@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/skel-base.css"> 
    <link rel="stylesheet" href="../css/simple-slideshow-styles.css">
-  
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
          
  <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -60,7 +60,7 @@
 			<div class="main-nav">
 				<ul class="nav-horiz-a">
 					<li id="active" class="nav-six">
-						<a href="../index.html">Home</a>
+						<a href="../skel-index.html">Home</a>
 					</li>
 					<li class="nav-six">
 						<a href="#">Item</a>

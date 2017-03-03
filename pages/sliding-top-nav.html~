@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../css/skel-base.css"> 
    <link rel="stylesheet" href="../css/simple-slideshow-styles.css">
   
-         
+     	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
  <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -59,7 +59,9 @@
     <a href="#">Services</a>
     <a href="#">Clients</a>
     <a href="#">Contact</a>
-    <a href="javascript:void(0)" class="topClosebtn" onclick="closeTopNav()">&times;</a>
+  <!--   <a href="javascript:void(0)" class="topClosebtn" onclick="closeTopNav()">&times;</a> -->
+    <a class="topClosebtn" href="#">&times;</a>
+  
   </div>
 </div>
 <header>

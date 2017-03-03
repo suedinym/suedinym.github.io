@@ -25,7 +25,7 @@
      <link rel="stylesheet" href="../css/accordion.css">
      <link rel="stylesheet" href="../css/faq-style.css">
   
-         
+         	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
  <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- Required for Accordion -->
@@ -66,14 +66,18 @@ $(this).prop("hash");
  <!-- Header - fixed top menu
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <header>
-<div>
-<ul class="top-bar" id="top">
-  <li>	<!-- <span class="hamburger" onclick="openSideNav()">&#9776;</span>   -->
-    <a href="#slidingSideNav">&#9776;</a> 
+<div class="top-header-bar dkgry">
+<ul class="top-bar">
   
-  </li>
-   <li><a href="../index.html"><i class="home fa fa-home" ></a></li>
-
+   <li><a  href="../index.html">
+     <i class="fa fa-home fa-lg"></i>
+   </a></li>
+  <li><a href="../pages/gallery1.php">gallery 1</a></li>
+  <li><a href="../pages/gallery2.php">gallery 2</a></li> 
+  <li><a href="../pages/gallery3.php">gallery 3</a></li>
+  <li><a href="../pages/gallery4.php">gallery 4</a></li>
+  <li><a href="../pages/faq.php">FAQ page</a></li>
+</ul>
 </div>
 </header>
 

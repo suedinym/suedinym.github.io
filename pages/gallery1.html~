@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/skel-base.css"> 
     <link rel="stylesheet" href="../css/multiple-modal.css">
-  
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
          
  <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -66,7 +66,7 @@
 					<div><!-- The Close Button -->
 					<a class="modal-close" href="#close">&times;</a>
 					<h2>Alas, poor Yorick!</h2>
-					<img alt="" src="../images/gallery/image2.png"></div>
+					<img class="skel-gal" alt="" src="../images/gallery/image2.png"></div>
 				</div><!-- end modal one -->
 				</div>
   </div>

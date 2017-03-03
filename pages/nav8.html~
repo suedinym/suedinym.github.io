@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/skel-base.css"> 
    <link rel="stylesheet" href="../css/simple-slideshow-styles.css">
-  
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
          
  <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -91,7 +91,7 @@
 <!-- Breadcrumbs
     ================================================== -->
     <ul class="breadcrumb">
-  <li><a href="../index.html">Home</a></li>
+  <li><a href="../skel-index.html">Home</a></li>
   <li>Eight Tab Horizontal Navigation</li>
  </ul>
  <div class="container">
