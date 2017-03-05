@@ -55,11 +55,15 @@
 <div class="container">
 			<!-- columns should be the immediate child of a .row -->
 			<div class="row">
-				<div class="twelve columns view-detail">
+	<div class="twelve columns view-detail">
 				<!-- Modal starts here
     ================================================== -->
-				<h3 class="modal-head centertxt">Skull</h3><a href="#openModal1"><i class="open-modal-gal1  fa fa-expand fa-lg"></i>
-				</a> <img class="gal1" src="../images/gallery/image2.png"></div><!-- The Modal -->
+				<h3 class="modal-head centertxt">Skull</h3>
+				<!-- modal one --><a href="#openModal1">
+					<i class="open-modal  fa fa-expand  fa-2x"></i>
+			<!-- 	<img class="open-modal" src="../images/icons/enlarge.svg"> -->
+				</a> <img class="gal1" src="../images/gallery/image2.png">
+				</div><!-- The Modal -->
 				<!-- note: id is anchor  -->
 				<div class="modalDialog" id="openModal1">
 					<div><!-- The Close Button -->
@@ -69,7 +73,7 @@
 				</div><!-- end modal one -->
 				</div>
   </div>
-  <!-- end container -->
+   <!-- end container --> 
   <br>
   <hr>
 	<!-- Footer Container
