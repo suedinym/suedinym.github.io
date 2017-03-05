@@ -271,6 +271,11 @@ color: white;}
 	.find-us-bar ul li a {
     font-size: 1.75rem;
    }
+   .faq-links ul li {padding: 1rem;}
+   	ul.faq-a li, ul.faq-b li { width: 25%;}
+    .faq-links ul li a { 
+font-size: 1.25rem;
+
 }
     /* #vertical share icons
 ================================================== */
