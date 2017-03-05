@@ -87,8 +87,8 @@ Two modal version at http://jsfiddle.net/3Vykc/
 	.gal2 {width: 60%}
 	.gal3 {width: 85%}
 	.gal4 {width: 80%}
-/*	.view-detail {position: relative;}
-	might not need size  using fa icon*/
+	.view-detail {position: relative;}
+/*		might not need size  using fa icon*/
 	
 	.fa-expand {
 text-decoration: none;
