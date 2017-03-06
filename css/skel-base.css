@@ -170,6 +170,8 @@ color: white;}
 .top-bar li a, .hamburger {
       padding: .66rem .5rem;
      }  
+     .top-header-bar ul li a {font-size: .75em;
+     padding: .5rem;}
 }
 .top-header-bar{
 	display: inline-block;
