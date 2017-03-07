@@ -43,7 +43,7 @@
 				<!-- <li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li> -->
 				 <a  class="hamburger" href="#slidingTopNav">&#9776;</a> 
 				<li>
-					<a href="../index.html"><i class="home fa fa-home fa-lg" ></i><!-- <img alt="Home" class="home" src="images/icons/home.svg"> --></a>
+					<a href="../skel-index.html"><i class="home fa fa-home fa-lg" ></i><!-- <img alt="Home" class="home" src="images/icons/home.svg"> --></a>
 				</li>
 				<li>
 					<a href="../pages/gallery1.html">Gallery 1</a>

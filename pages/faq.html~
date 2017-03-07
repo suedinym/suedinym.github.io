@@ -92,7 +92,7 @@ $(this).prop("hash");
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   	<div  class="faq-links">
   
-				<ul>
+				<ul class="faq-a">
 					<li>
 						<a class="open-local-faq" href="#ac-1">FAQ 1</a>
 					</li>
@@ -105,6 +105,8 @@ $(this).prop("hash");
 					<li>
 						<a class="open-local-faq"  href="#ac-4">FAQ 4</a>
 					</li>
+					</ul>
+					<ul class="faq-b">
 						<li>
 						<a class="open-local-faq" href="#ac-5">FAQ 5</a>
 					</li>

@@ -165,11 +165,13 @@ color: white;}
 		 font-size: 1em;
 	}
 	.top-bar li a {
-		 font-size: .85em;
+		 font-size: .75em;
 	}
 .top-bar li a, .hamburger {
       padding: .66rem .5rem;
      }  
+     .top-header-bar ul li a {font-size: .75em;
+     padding: .5rem;}
 }
 .top-header-bar{
 	display: inline-block;
@@ -457,12 +459,6 @@ a.sideClosebtn {
     top: 2%;
     right: 5%;
     font-size: 2em;}
-    
-   /* a.topClosebtn {
-	  position: absolute;
-    top: 2%;
-    right: 5%;
-    font-size: 2em;}*/
 
 @media screen and (max-height: 450px) {
   .overlay {

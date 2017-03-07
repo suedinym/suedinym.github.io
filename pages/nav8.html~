@@ -40,7 +40,7 @@
 <div class="top-header-bar dkgry">
 <ul class="top-bar">
   
-   <li><a  href="../index.html">
+   <li><a  href="../skel-index.html">
      <i class="fa fa-home fa-lg"></i>
    </a></li>
   <li><a href="../pages/gallery1.html">gallery 1</a></li>

@@ -182,7 +182,7 @@ li.right {
 }
 li.right a {
 	display: block;
-	color: #285071;
+	
 	padding: 0 1.5rem;
 	text-decoration: none;
 }
@@ -204,7 +204,7 @@ li.right a {
 .top-header-bar{
 	display: inline-block;
 	width: 100%;
-	background-color: #414a49;
+
 }
 
 

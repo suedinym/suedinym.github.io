@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>8 Tab Navigation</title>
+  <title>Vertical Icons</title>
   <meta name="description" content="">
   <meta name="author" content="sue" >
 
@@ -40,98 +40,34 @@
 <div class="top-header-bar dkgry">
 <ul class="top-bar">
   
-   <li><a  href="../skel-index.html">
+   <li><a  href="../index.html">
      <i class="fa fa-home fa-lg"></i>
    </a></li>
   <li><a href="../pages/gallery1.html">gallery 1</a></li>
   <li><a href="../pages/gallery2.html">gallery 2</a></li> 
   <li><a href="../pages/gallery3.html">gallery 3</a></li>
   <li><a href="../pages/gallery4.html">gallery 4</a></li>
+
 </ul>
 </div>
 </header>
 
 <div class="logo-header">
-			<img class="logo" src="../images/logo.png">
-			<h1>Skin and Bones Skeleton</h1>
-					<h5>Based on <a href="http://getskeleton.com"> Skeleton - Version 2.0.4</a></h5>
-			</header>
-		</div><br class="clear">
-		<!-- Horizontal Navigation
-    ================================================== -->
-		<nav>
-			<div class="main-nav">
-				<ul class="nav-horiz-a">
-					<li id="active">
-						<a href="../skel-index.html">Home</a>
-					</li>
-					<li>
-						<a href="#">Item</a>
-					</li>
-					<li>
-						<a href="#">Item</a>
-					</li>
-					<li>
-						<a href="#">Item</a>
-					</li>
-				</ul>
-				<ul class="nav-horiz-b">
-						<li>
-						<a href="#">Item</a>
-					</li>
-					<li>
-						<a href="#">Item</a>
-					</li>
-					<li>
-					<a href="#">Item</a>
-					</li>
-					<li>
-						<a href="#">Item</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-<!-- Breadcrumbs
-    ================================================== -->
-    <ul class="breadcrumb">
-  <li><a href="../skel-index.html">Home</a></li>
-  <li>Eight Tab Horizontal Navigation</li>
- </ul>
+		<img class="logo5" src="../images/logo.png">
+		<h1>Skin and Bones Skeleton</h1>
+		<h5>Based on <a href="http://getskeleton.com">Skeleton - Version 2.0.4</a></h5>
+	</div>
+	<div class="share-bar">
+		<a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a> <a href=
+		"https://www.pinterest.com/" target="blank"><i class="fa fa-pinterest-square"></i></a> <a href=
+		"https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a> <a href="https://twitter.com/"
+		target="blank"><i class="fa fa-twitter-square"></i></a> 
+	</div><br class="clear"> 
+	<hr>
+
+
+    
  <div class="container">
- <div class="main">
-  		<!-- A Better Simple Slideshow Used here
-    ================================================== -->
-		<div class="sixteen columns">
-			<div class="bss-slides num1" tabindex="1">
-				<figure>
-					<img src="../images/slides/skel-slide1.jpg" width="100%">
-					<figcaption>
-						Anterior
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="../images/slides/skel-slide2.jpg" width="100%">
-					<figcaption>
-						Right Side
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="../images/slides/skel-slide3.jpg" width="100%">
-					<figcaption>
-						Posterior
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="../images/slides/skel-slide4.jpg" width="100%">
-					<figcaption>
-						Left Side
-					</figcaption>
-				</figure>
-			</div>
-		</div>
-		
-		<!-- slideshow  end-->
-		 <hr>
     <div class="row">
       <div class="one-half column" style="margin-top: 5%">
         <h4>Basic Page</h4>
@@ -139,7 +75,7 @@
       
       </div>
     </div>
-    </div>
+   
   </div>
   <!-- end container -->
   <hr>

@@ -40,7 +40,7 @@
 				<!-- <li><span class="hamburger" onclick="openSideNav()">&#9776;</span></li> -->
 				 <a  class="hamburger" href="#slidingSideNav">&#9776;</a> 
 				<li>
-					<a href="index.html"><i class="home fa fa-home" ></i><!-- <img alt="Home" class="home" src="images/icons/home.svg"> --></a>
+					<a href="index.html"><i class="home fa fa-home fa-lg" ></i><!-- <img alt="Home" class="home" src="images/icons/home.svg"> --></a>
 				</li>
 				<li>
 					<a href="pages/gallery1.html">Gallery 1</a>
@@ -54,9 +54,7 @@
 				<li>
 					<a href="pages/gallery4.html">Gallery 4</a>
 				</li>
-				<li>
-					<a href="pages/faq.html">FAQ page</a>
-				</li>
+		
 			</ul>
 		</div>
 	</header><!-- sliding side navigation
@@ -219,30 +217,42 @@
 		<img class="logo" src="images/logo5.png">
 		<h1>Skin and Bones Skeleton</h1>
 		<h5>Based on <a href="http://getskeleton.com">Skeleton - Version 2.0.4</a></h5>
+	</div>
+		<div class="share-bar">
+		<a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a> <a href=
+		"https://www.pinterest.com/" target="blank"><i class="fa fa-pinterest-square"></i></a> <a href=
+		"https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a> <a href="https://twitter.com/"
+		target="blank"><i class="fa fa-twitter-square"></i></a> 
 	</div><br class="clear">
 	<!-- Horizontal Navigation
     ================================================== -->
 	<nav>
 		<div class="main-nav">
 			<ul class="nav-horiz-a">
-				<li id="active" class="nav-six">
+				<li id="active" >
 					<a href="index.html">Home</a>
 				</li>
-				<li class="nav-six">
+				<li >
 					<a href="pages/nav8.html">8 Tab Nav</a>
 				</li>
-				<li class="nav-six">
+				<li >
 					<a href="pages/nav6.html">6 Tab Nav</a>
+				</li>
+					<li >
+					<a href="pages/icons.html">Icon Bar</a>
 				</li>
 			</ul>
 			<ul class="nav-horiz-b">
-				<li class="nav-six">
+				<li >
+					<a href="pages/faq.html">FAQ Page</a>
+				</li>
+				<li >
 					<a href="pages/sliding-top-nav.html">Top Nav</a>
 				</li>
-				<li class="nav-six">
+				<li >
 					<a href="pages/sliding-side-nav.html">Side Nav</a>
 				</li>
-			<li class="nav-six">
+			<li >
 					<a href="pages/sliding-side-nav-accoridon.html">Accordion</a>
 				</li>
 			</ul>
