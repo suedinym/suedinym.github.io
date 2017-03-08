@@ -12,6 +12,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"><!-- CSS
 <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Handlee|Rock+Salt" rel="stylesheet"> 
+<!-- link to just the letters you need -->
+<link href="https://fonts.googleapis.com/css?family=Anton&text=S%20U%20A%20N%20J%20E%20" rel="stylesheet">  
+
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/skeleton.css" rel="stylesheet">
@@ -39,22 +42,36 @@
 					<a href="pottery-index.html">Smallville Pottery</a>
 				</li>
 				<li>
-					<a href="pages/school-index.html">Riverdale School District</a>
+					<a href="school-index.html">Riverdale School District</a>
 				</li>
-				<!--<li>
-					<a href="pages/gallery4.html">Gallery 4</a>
-				</li> -->
 			</ul>
 		</div>
 	</header>
 
 	<div class="container">
 	<div class="row">
-	<div class="oops centertxt">
+	      <div class="twelve columns" style="margin-top: 15%"> 
+       <div class="myname">
+     
+  <div class="susan s1" id="s1">S</div>
+  <div class="susan u1" id="u1">U</div>
+  <div class="susan s2" id="s2">S</div>
+  <div class="susan a1" id="a1">A</div>
+  <div class="susan n1" id="n1">N</div> 
+ 
+   <div class="jensen j1" id="j1">J</div>
+  <div class="jensen e1" id="e1">E</div>
+  <div class="jensen n2" id="n2">N</div>
+  <div class="jensen s3" id="s3">S</div>
+  <div class="jensen e2" id="e2">E</div>
+  <div class="jensen n3" id="n3">N</div> 
+ 
+</div>
+<!-- 	<div class="oops centertxt">
 	<p class="oopsie">Oopsie!</p>
 	<p class="rascal centertxt">Some rascal seems to have deleted my github.io!</p>
 	<p class="check-out">(... but feel free to check out '<a href="skel-index.html"> SkinAndBones</a>'!)</p>
-	</div>
+	</div> -->
 	</div>
 	<!-- Share icons
     ================================================== -->
