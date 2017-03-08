@@ -104,7 +104,7 @@ p {
 	}
 	.myname {
 		text-align: center;
-		margin: 15% 0;
+		margin: 1% 0;
 	}
 
 	@media (min-width: 550px){
@@ -469,6 +469,7 @@ li.right a {
 	display: inline-block;
 	width: 100%;
 
+}
 }
 /* Larger than mobile */
 @media (min-width: 400px) {
