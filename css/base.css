@@ -94,6 +94,7 @@ p {
   .susan, .jensen {
 		font-size: 2.25rem;
 		font-family: 'Anton', sans-serif;
+		display: inline-block;
 	}
 	.susan {
 		color: #ce95a4;
@@ -103,11 +104,25 @@ p {
 	}
 	.myname {
 		text-align: center;
-		margin-bottom: 10%;
+		margin: 15% 0;
+	}
+
+	@media (min-width: 550px){
+			.s1, .u1, .s2, .a1, .n1, .j1, .e1, .n2, .s3, .e2, .n3 {
+		display: inline-block;
+		margin-left: 1rem;
+	}
+		.susan, .jensen {
+		text-shadow: 4px 4px 4px #666;
+		font-size: 6rem;
+	}
+	.myname {
+		margin: 15% 0;
 	}
 	
-	/* Larger than phablet */
-@media (min-width: 550px) {
+	}
+/* Larger than tablet */	
+	@media (min-width: 750px) {
 	.s1, .u1, .s2, .a1, .n1, .j1, .e1, .n2, .s3, .e2, .n3 {
 		display: inline-block;
 		margin-left: 1rem;
@@ -120,6 +135,9 @@ p {
 		margin: 15% 0;
 	}
 	}
+
+	
+	
 	
 	/* change the color as it comes in*/
 
