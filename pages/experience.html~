@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<title>Experience | Sue Jensen</title>
+	  <meta name="description" content="Artist, designer and writer Susan Jensen's online portfolio.">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="sue" name="author">
+	<link href="../../images/favicon.ico" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Handlee" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link rel="stylesheet" href="../css/normalize.css">  
+   <link rel="stylesheet" href="../css/multiple-modal.css">  
+  <link rel="stylesheet" href="../css/skeleton.css">
+   <link rel="stylesheet" href="css/portfolio-base.css"> 
+	<link href="../css/ac-gallery-style.css" rel="stylesheet" type="text/css">
+	<script src="../js/modernizr.custom.29473.js" type="text/javascript">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	//so could mine be: yes it was!  works
+jQuery(document).ready(function() {
+// might need to add for same page? or like, a class something $('a').click(function(){
+    // get the #section from the URL
+    var hash = window.location.hash; 
+    // open accordion
+     $(hash).prop("checked", true);
+     //scroll
+   var accordionTop =  $(hash).closest('section');
+   $('html, body').animate({
+            scrollTop: $(accordionTop).offset().top
+        }, 500);
+  
+});
+/*	jQuery(document).ready(function() {
+   
+    var hash = window.location.hash; 
+       $(hash).prop("checked", true);
+ });*/
+ 
+ </script>
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58e69529e8a8fc0011f8203f&product=sticky-share-buttons"></script>
+</head>
+<body>
+	
+		<!--  top bar -->
+		<div class="gallery-top">
+		<a href="../portfolio.html"><i class="top-home fa fa-home" ></i><a>
+			<a href="illustration.html"><strong class="top-prev-nxt">&lt;&lt; Previous Gallery&brvbar;</strong>Illustration</a>  
+			<span class="right"><a href="education.html"><strong class="top-prev-nxt">Next Gallery&brvbar;</strong>Education &gt;&gt;</a></span>
+			<div class="clr"></div>
+		</div><!--/  top bar -->
+		<h3 class="gal-title">Experience</h3>
+		<div class="container">
+		<!--start accordion one -->
+		<div class="row">
+			<div class="one-third column">
+		<section class="gal-container">
+			<!--start accordion one section 1 -->
+		<div class="modalDialog" id="openModal1">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Ice Skating Chicken" src="../images/gallery/experience/02-hadley-chicken.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> M.A. Hadley Pottery </p> -->
+				<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input checked id="ac-1" name="accordion1" type="radio"> <label for="ac-1">Ice Skating Chicken</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal1">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/02-hadley-chicken.jpg" alt="Ice Skating Chicken">
+					</a>
+				<p><strong>For:</strong> M.A. Hadley Pottery </p>
+			<!-- 	<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p> -->
+				<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p>
+				</article>
+			</div>
+			
+			
+			<!--start accordion one section 2 -->
+				<div class="modalDialog" id="openModal2">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Ice Skating Horse" src="../images/gallery/experience/01-hadley-horse.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> M.A. Hadley Pottery </p> -->
+				<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-2" name="accordion1" type="radio"> <label for="ac-2">Ice Skating Horse</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal2">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/01-hadley-horse.jpg" alt="Ice Skating Horse">
+					</a>
+				<p><strong>For:</strong> M.A. Hadley Pottery </p>
+			<!-- 	<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p> -->
+				<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p>
+				</article>
+			</div>
+			
+			<!--start accordion one section 3 -->
+	<div class="modalDialog" id="openModal3">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Ice Skating Pig" src="../images/gallery/experience/03-hadley-pig.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> M.A. Hadley Pottery </p> -->
+				<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-3" name="accordion1" type="radio"> <label for="ac-3">Ice Skating Pig</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal3">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/03-hadley-pig.jpg" alt="Ice Skating Pig">
+					</a>
+				<p><strong>For:</strong> M.A. Hadley Pottery </p>
+			<!-- 	<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p> -->
+				<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p>
+				</article>
+			</div><!--start accordion one section 4 -->
+			<div class="modalDialog" id="openModal4">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Ice Skating Lamb" src="../images/gallery/experience/04-hadley-lamb.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> M.A. Hadley Pottery </p> -->
+				<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-4" name="accordion1" type="radio"> <label for="ac-4">Ice Skating Lamb</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal4">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/04-hadley-lamb.jpg" alt="Ice Skating Lamb">
+					</a>
+				<p><strong>For:</strong> M.A. Hadley Pottery </p>
+			<!-- 	<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced during winter 2013.</p> -->
+				<p>	<strong>Objective:</strong> Create new designs in the Hadley style. These new designs were based on existing patterns, but used in a new way.</p>
+				</article>
+			</div>
+			<div class="modalDialog" id="openModal8">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Happy Haunting" src="../images/gallery/experience/haunting.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> M.A. Hadley Pottery</p> -->
+				<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced. </p>
+			<!-- 	<p>	<strong>Objective:</strong>  Introduce new patterns to entice existing customers who already own extensive collections. </p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-8" name="accordion1" type="radio"> <label for="ac-8">Happy Haunting</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal8">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/haunting.jpg" alt="Happy Haunting">
+					</a>
+				<p><strong>For:</strong> M.A. Hadley Pottery</p>
+			<!-- 	<p>	<strong>Medium:</strong> Hand-glazed Stoneware</p>
+				<p>	<strong>Involvement:</strong> Created the original thumbnails and samples, and painted all or most of plates produced. </p> -->
+				<p>	<strong>Objective:</strong>  Introduce new patterns to entice existing customers who already own extensive collections. </p>
+				</article>
+			</div>
+				</section>
+			
+			</div>
+			<div class="one-third column">
+		<section class="gal-container">
+			<!--start accordion two section 1 -->
+		<div class="modalDialog" id="openModal5">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Stained glass Rose window " src="../images/gallery/experience/backlit-rose.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Private client </p> -->
+				<p>	<strong>Medium:</strong> Leaded Stained Glass</p>
+				<p>	<strong>Involvement:</strong> Drew the 'cartoon' from a description of what the customer wanted. Enlarged the cartoon after approval, purchased materials and created the window.</p>
+			<!-- 	<p>	<strong>Objective:</strong> To replace a regular window with one that blocked a bad view.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input checked id="ac-5" name="accordion2" type="radio"> <label for="ac-5">Stained-glass Rose Window </label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal5">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/backlit-rose.jpg" alt="Stained glass Rose window ">
+					</a>
+				<p><strong>For:</strong> Private client </p>
+			<!-- 	<p>	<strong>Medium:</strong> Leaded Stained Glass</p>
+				<p>	<strong>Involvement:</strong> Drew the 'cartoon' from a description of what the customers wanted. Enlarged the cartoon after approval, purchased materials and created the window.</p> -->
+				<p>	<strong>Objective:</strong> To replace a regular window with one that blocked a bad view.</p>
+				</article>
+			</div><!--start accordion two section 2 -->
+		<div class="modalDialog" id="openModal6">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Stained-glass 'cartoon'" src="../images/gallery/experience/spiderplant-cartoon.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Private client </p> -->
+				<p>	<strong>Medium:</strong> Leaded Stained Glass</p>
+				<p>	<strong>Involvement:</strong> I drew the 'cartoon'  (small thumbnail sketch) of the window from description of what the customer wanted.</p>
+			<!-- 	<p>	<strong>Objective:</strong> The customer wanted something more interesting than plain glass to fill a 9 foot by 5 foot expanse, and wanted a spider plant to be part of the window (rather than an actual plant in front of it.)</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-6" name="accordion2" type="radio"> <label for="ac-6">Window 'cartoon'</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal6">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/spiderplant-cartoon.jpg" alt="Stained-glass 'cartoon'">
+					</a>
+				<p><strong>For:</strong> Private client </p>
+		
+				<p>	<strong>Objective:</strong> The customer wanted something more interesting than plain glass to fill a 9 foot by 5 foot expanse, and wanted a spider plant to be part of the window (rather than an actual plant in front of it.)</p>
+				</article>
+			</div><!--start accordion two section 3 -->
+	<div class="modalDialog" id="openModal7">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Spider Plant Window" src="../images/gallery/experience/spiderplant-window.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Private client </p> -->
+				<p>	<strong>Medium:</strong> Leaded Stained Glass</p>
+				<p>	<strong>Involvement:</strong> Enlarged the cartoon, purchased materials and created the window.</p>
+			
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-7" name="accordion2" type="radio"> <label for="ac-7">Spider Plant Window</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal7">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/spiderplant-window.jpg" alt="Spider Plant Window">
+					</a>
+				<p><strong>For:</strong> Private client </p>
+		
+				<p>	<strong>Objective:</strong> After installation, the customer told me that numerous people thought the spider plant was LIVE and hanging in front of regular window -- until, on closer inspection they realized it WAS the window!</p>
+				</article>
+			</div><!--start accordion two section 4 -->
+			<div class="modalDialog" id="openModal14">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Antonelli Institute splash page" src="../images/gallery/experience/antonelli-splash.png">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Antonelli Institute, circa 2000</p> -->
+				<p>	<strong>Medium:</strong> Web Site Design</p>
+				<p>	<strong>Involvement:</strong> Presented three wireframes of concepts to then director,  Thomas Treacy.  Built the one he chose in Dreamweaver.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Develop Antonelli's first professional site. In 1999 the school's financial aid officer was running the site. Dr. Treacy wanted something that better reflected the school's art and photography programs. </p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-14" name="accordion2" type="radio"> <label for="ac-14">Antonelli Institute splash</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal14">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/antonelli-splash.png" alt="Antonelli Institute splash page">
+					</a>
+				<p><strong>For:</strong> Antonelli Institute, circa 2000</p>
+			<!-- 	<p>	<strong>Medium:</strong> Web Site Design</p>
+				<p>	<strong>Involvement:</strong> Presented three wireframes of concepts to then director,  Thomas Treacy.  Built the one he chose in Dreamweaver.</p> -->
+				<p>	<strong>Objective:</strong> Develop Antonelli's first professional site. In 1999 the school's financial aid officer was running the site. Dr. Treacy wanted something that better reflected the school's art and photography programs. </p>
+				</article>
+			</div>
+			<div class="modalDialog" id="openModal15">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Antonelli Institute Site" src="../images/gallery/experience/antonelli-overview.png">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Antonelli Institute, circa 2000</p> -->
+				<p>	<strong>Medium:</strong> Web Site Design</p>
+				<p>	<strong>Involvement:</strong> Presented three wireframes of concepts to then director,  Thomas Treacy.  Built the one he chose in Dreamweaver.</p>
+			<!-- 	<p>	<strong>Objective:</strong> Develop Antonelli's first professional site. In 1999 the school's financial aid officer was running the site. Dr. Treacy wanted something that better reflected the school's art and photography programs. </p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-15" name="accordion2" type="radio"> <label for="ac-15">Antonelli Institute Site</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal15">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/antonelli-overview.png" alt="Antonelli Institute Site">
+					</a>
+				<p><strong>For:</strong> Antonelli Institute, circa 2000</p>
+			<!-- 	<p>	<strong>Medium:</strong> Web Site Design</p>
+				<p>	<strong>Involvement:</strong> Presented three wireframes of concepts to then director,  Thomas Treacy.  Built the one he chose in Dreamweaver.</p> -->
+				<p>	<strong>Objective:</strong> Develop Antonelli's first professional site. In 1999 the school's financial aid officer was running the site. Dr. Treacy wanted something that better reflected the school's art and photography programs. </p>
+				</article>
+			</div>
+				</section>
+				
+			</div>
+			<!-- HERE HERE HERE -->
+		
+			<div class="one-third column">
+		<section class="gal-container">
+			<!--start accordion three section 1 -->
+		<div class="modalDialog" id="openModal9">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Dangling Spider" src="../images/gallery/experience/highlights.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Highlights for Children</p> -->
+				<p>	<strong>Medium:</strong> Found Objects</p>
+				<p>	<strong>Involvement:</strong> Created the original craft, and wrote the instructions. They also used the photo I sent in my submission in the magazine.</p>
+					</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input checked id="ac-9" name="accordion3" type="radio"> <label for="ac-9">Dangling Spider</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal9">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/highlights.jpg" alt="Dangling Spider">
+					</a>
+				<p><strong>For:</strong> Highlights for Children</p>
+				<p>	<strong>Objective:</strong> Create a simple craft project using (at the time) readily available (i.e. cheap to free) supplies - an empty film canister might be more difficult to acquire now!</p>
+				</article>
+			</div><!--start accordion three section 2 -->
+			
+	<div class="modalDialog" id="openModal10">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Plot, Scene and Character" src="../images/gallery/experience/8th_young-authors.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong>  North Penn School District, Lansdale PA</p> -->
+				<p>	<strong>Medium:</strong> Writing Workshop</p>
+				<p>	<strong>Involvement:</strong> Generated the idea, set up the curriculum, and worked with about twenty 4th and 5th graders, for three 1 hour long sessions per workshop, annually between 1995 and 2003. </p>
+			<!-- 	<p>	<strong>Objective:</strong> How do you start a story when you're faced with a blank page? The workshop taught students to look at a photo and develop a character by inventing who the person might be, then place the character the in a setting, and speculate how they might interact.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-10" name="accordion3" type="radio"> <label for="ac-10">Plot, Scene and Character</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal10">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/8th_young-authors.jpg" alt="Plot, Scene and Character">
+					</a>
+				<p><strong>For:</strong>  North Penn School District, Lansdale PA</p>
+			<!-- 	<p>	<strong>Medium:</strong> Writing Workshop</p>
+				<p>	<strong>Involvement:</strong> Generated the idea, set up the curriculum, and worked with about twenty 4th and 5th graders, for three 1 hour long sessions per workshop, annually between 1995 and 2003. </p> -->
+				<p>	<strong>Objective:</strong>The workshop taught students to look at a photo and develop a character by inventing who the person might be, then place the character the in a setting, and speculate how they might interact.</p>
+				</article>
+			</div><!--start accordion three section 3 -->
+		<div class="modalDialog" id="openModal11">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="Details, Details!" src="../images/gallery/experience/16th_young-authors.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong>  North Penn School District, Lansdale PA</p> -->
+				<p>	<strong>Medium:</strong> Writing Workshop</p>
+				<p>	<strong>Involvement:</strong> Generated the idea, set up the curriculum, and worked with about twenty 4th and 5th graders, for three 1 hour long sessions per workshop, annually between 1995 and 2003. </p>
+			<!-- 	<p>	<strong>Objective:</strong> After developing characters, the students looked around the classroom to find details to use in their setting. Sometimes they started acting out their characters, and wrote a script instead of a short story!</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-11" name="accordion3" type="radio"> <label for="ac-11">Details, Details!</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal11">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/16th_young-authors.jpg" alt="Details, Details!">
+					</a>
+				<p><strong>For:</strong>  North Penn School District, Lansdale PA</p>
+			<!-- 	<p>	<strong>Medium:</strong> Writing Workshop</p>
+				<p>	<strong>Involvement:</strong> Generated the idea, set up the curriculum, and worked with about twenty 4th and 5th graders, for three 1 hour long sessions per workshop, annually between 1995 and 2003. </p> -->
+				<p>	<strong>Objective:</strong> After developing characters, the students looked around the classroom to find details to use in their setting. Sometimes they started acting out their characters, and wrote a script instead of a short story!</p>
+				</article>
+			</div><!--start accordion three section 4 -->
+		<div class="modalDialog" id="openModal12">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+				<img alt="For the Reporter, byline" src="../images/gallery/experience/tear-drivein.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> The Reporter Newspaper, Landale</p> -->
+				<p>	<strong>Medium:</strong> Newspaper Article</p>
+				<p>	<strong>Involvement:</strong> Wrote numerous Front page, business, lifestyles and special sections articles. Produced a bi-weekly family dining column reviewing local restaurants</p>
+			<!-- 	<p>	<strong>Objective:</strong> Find out the details surrounding various events (such as the Philadelphia Folk Festival, or a featured reading program) and deliver useful information on how to attend, what to bring (and sometimes, what to avoid.)</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-12" name="accordion3" type="radio"> <label for="ac-12">For the Reporter, byline</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal12">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/tear-drivein.jpg" alt="For the Reporter, byline">
+					</a>
+				<p><strong>For:</strong> The Reporter Newspaper, Landale</p>
+			<!-- 	<p>	<strong>Medium:</strong> Newspaper Article</p>
+				<p>	<strong>Involvement:</strong> Wrote numerous Front page, business, lifestyles and special sections articles. Produced a bi-weekly family dining column reviewing local restaurants</p> -->
+				<p>	<strong>Objective:</strong> Find out the details surrounding various events (such as the Philadelphia Folk Festival, or a featured reading program) and deliver useful information on how to attend, what to bring (and what to avoid.)</p>
+				</article>
+			</div>
+			
+			<!-- fifth section -->
+				<div class="modalDialog" id="openModal13">
+					<div><!-- The Close Button -->
+					<a class="modal-close" href="#close">&times;</a>
+					<p  class="oatmeal">Now that I'm a mother too, I realize there are some things you really should have taught me...</p>
+				<img alt="Happy Mother's Day" src="../images/gallery/experience/oatmeal-2.jpg">
+				<hr class="modal-hr">
+						<!-- 	<p><strong>For:</strong> Oatmeal Studios</p> -->
+				<p>	<strong>Medium:</strong> Greeting Card Copy</p>
+				<p>	<strong>Involvement:</strong> The studio illustrated the card. I wrote the copy for the card (except the original version featured a cat, rather than Play-doh.) </p>
+			<!-- 	<p>	<strong>Objective:</strong> To have some fun brainstorming ideas. Oatmeal Studios features quirky ideas, and submitting ideas to them was fun.</p> -->
+				</div>
+				
+				</div><!-- end modal -->
+				
+			<div>
+				<input id="ac-13" name="accordion3" type="radio"> <label for="ac-13">Happy Mother's Day</label>
+				<article>
+				<!-- trigger modal --><a class="enlarge" href="#openModal13">	<i class=" fa fa-expand"></i><img class="ac-gal-img" src="../images/gallery/experience/oatmeal.jpg" alt="Happy Mother's Day">
+					</a>
+				<p><strong>For:</strong> Oatmeal Studios</p>
+			<!-- 	<p>	<strong>Medium:</strong> Greeting Card Copy</p>
+				<p>	<strong>Involvement:</strong> Wrote the copy for the card - except my version featured a cat, rather than Playdoh. (The studio illustrated it.)</p> -->
+				<p>	<strong>Objective:</strong> To have fun brainstorming ideas, quickly, to get the creative juices flowing. Oatmeal Studios features quirky ideas, and submitting to them was fun.</p>
+				</article>
+			</div>
+				</section>
+				
+			</div>
+			</div>
+					<div class="row">
+			<div class="twelve columns">
+			<!-- Footer Container
+    ================================================== -->
+	<footer>
+		<div class="footer-container centertxt">
+		
+    		<p class="footer">Unless otherwise noted, all photography and artwork on this website is copyrighted<br> and is not to be used without the permission of the copyright holder. 
+    		</br> &copy; Susan Jensen 2000-2014 <a href="http://suedinym.com">www.suedinym.com</a>
+    		</br> All Rights Reserved
+    		<br>
+			<a href="https://suedinym.github.io/credits.html" target="blank">Credits</a></p> 
+		</div>
+	</footer><!-- end footer container -->
+			</div>
+			</div>
+			</div>
+			<div class="gallery-bottom">
+		<a href="../portfolio.html"><i class="top-home fa fa-home" ></i><a>
+	<a href="../portfolio.html"><i class="top-home fa fa-home" ></i><a>
+			<a href="illustration.html"><strong class="top-prev-nxt"> Previous Gallery&brvbar;</strong>&lt;&lt;Illustration</a>  
+			<span class="right"><a href="education.html"><strong class="top-prev-nxt">Next Gallery&brvbar;</strong>Education &gt;&gt;</a></span>
+			<div class="clr"></div>
+		</div><!--/  top bar -->
+		
+	
+</body>
+</html>

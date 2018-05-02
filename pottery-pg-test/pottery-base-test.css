@@ -1,0 +1,394 @@
+	/* #BASIC PAGE STYLES
+================================================== */
+	/* changed background color from a slightly offwhite color-picked from a photo of the ware, because the white was giving me a headache*/
+	
+	body {
+		background: #f6f2e7;
+	}
+	/* add class to any text or item to center*/
+	
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.centertxt {
+		text-align: center;
+	}
+	/* #Basic colors
+================================================== */
+	
+	.dk-bl {
+		background-color: #224460;
+	}
+	.lt-bl {
+		background-color: #285071;
+	}
+	.dk-grn {
+		background-color: #8aa970;
+	}
+	.lt-grn {
+		background-color: #aac096;
+	}
+	.dk-org {
+		background-color: #e09f6f;
+	}
+	.lt-org {
+		background-color: #e9b896;
+	}
+	.dk-bl-txt {
+		color: #224460;
+	}
+	.lt-bl-txt {
+		color: #285071;
+	}
+	.dk-grn-txt {
+		color: #8aa970;
+	}
+	.lt-grn-txt {
+		color: #aac096;
+	}
+	.dk-org-txt {
+		color: #e09f6f;
+	}
+	.lt-org-txt {
+		color: #e9b896;
+	}
+	.top-header-bar {
+		display: inline-block;
+		width: 100%;
+	}
+	.top-phone {
+		display: inline;
+	}
+	.top-search {
+		display: inline-block;
+		float: right;
+		margin: 0;
+	}
+	/* #Headers and footers
+================================================== */
+	
+	.logo {
+		background: #fff;
+		margin: 0 10px 0 15px;
+		float: left;
+		box-shadow: 5px 5px 10px #414a49;
+	}
+	.logo-header {
+		margin-bottom: 5px;
+		color: #285071;
+	}
+	/* #horizontal navigaton
+================================================== */
+	
+	.main-nav {
+		margin: 0 auto;
+		padding: 1em 0 0 0;
+	}
+	/*this looks like clear fix, so I might not need it*/
+	
+	.main-nav:after {
+		content: ".";
+		display: block;
+		line-height: 1px;
+		font-size: 1px;
+		clear: both;
+	}
+	ul.nav-horiz-a, ul.nav-horiz-b {
+		list-style: none;
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		font-size: 1em;
+	}
+	ul.nav-horiz-a li, ul.nav-horiz-b li {
+		display: block;
+		float: left;
+		width: 12.5%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	ul.nav-horiz-a li a, ul.nav-horiz-b li a, ul.nav-horiz-a li p {
+		display: block;
+		width: 100%;
+		padding: 0.5em;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #fff;
+		/* background: linear-gradient(#a6a6a5 , #414a49);*/
+		background: #e9b896;
+		/* #eaeaea;*/
+		border-width: 1px;
+		border-color: #ffe #aaab9c #ccc #fff;
+		border-style: solid;
+	}
+	.main-nav>ul.nav-horiz-a li a, .main-nav>ul.nav-horiz-b li a, .main-nav>ul.nav-horiz-a li p {
+		width: auto;
+	}
+	ul.nav-horiz-a li#active a, ul.nav-horiz-b li#active a {
+		/*background: linear-gradient(#c6c6c6 , #eaeaea);*/
+		background: #e09f6f;
+		/* #c6c6c6;*/
+		color: #595959;
+	}
+	ul.nav-horiz-a li a:hover, ul.nav-horiz-a li#active a:hover, ul.nav-horiz-b li a:hover, ul.nav-horiz-b li#active a:hover, ul.nav-horiz-a li p:hover {
+		color: #777;
+		/* background: linear-gradient(#eaeaea , #c6c6c6);*/
+		background: #aac096;
+		/* #a6a6a5; */
+	}
+	/* #SIDE NAVIGATION STYLES
+================================================== */
+	/* The side navigation menu */
+	
+	.sidenav {
+		height: 100%;
+		/* 100% Full-height */
+		width: 0;
+		/* 0 width - change this with JavaScript */
+		position: fixed;
+		/* Stay in place */
+		z-index: 1;
+		/* Stay on top */
+		top: 0;
+		left: 0;
+		background-color: #224460;
+		/* Dark blue*/
+		overflow-x: hidden;
+		/* Disable horizontal scroll */
+		padding-top: 60px;
+		/* Place content 60px from the top */
+		transition: 0.5s;
+		/* 0.5 second transition effect to slide in the sidenav */
+	}
+	/* The navigation menu links */
+	
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		/* sj change to em when this gets merged into style*/
+		color: #ccc;
+		display: block;
+		transition: 0.3s
+	}
+	.sidenav a {
+		background-color: #2e5e84;
+	}
+	/*this is the color of the accordion last set of links*/
+	/* When you mouse over the navigation links, change their color */
+	
+	.sidenav a:hover, .offcanvas a:focus {
+		color: #f1f1f1;
+	}
+	.openSideNav {
+		font-size: 18px;
+	}
+	/* Position and style the close button (top right corner) */
+	
+	.sidenav .closebtn {
+		background-color: #224460;
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+	
+	#main {
+		transition: margin-left .5s;
+		padding: 20px;
+	}
+	/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {
+			padding-top: 15px;
+		}
+		.sidenav a {
+			font-size: 18px;
+		}
+	}
+	/* #INDIVIDUAL PAGE STYLES
+================================================== */
+	/* #SHOP BY ITEM
+================================================== */
+.item-pg-banner{ padding: 20px 0;
+margin: 45px 0 15px 0;}
+	/*item card*/
+	/*rounded corners*/
+	.spc-warn {color: red;}
+	.product-card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+		transition: 0.3s;
+		border-radius: 20px;
+		background-color: #8aa970;
+		color: #fff;
+		text-align: center;
+		margin: 20px;
+		position: relative;
+	}
+		.product-card-spc {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+		transition: 0.3s;
+		border-radius: 20px;
+		background-color: #e09f6f;
+		color: #fff;
+		text-align: center;
+		margin: 20px;
+		position: relative;
+	}
+	.product-card img, .product-card-spc img {
+		width: 100%;
+		
+	}
+	/* Add rounded corners to the top left and the top right corner of the image */
+	
+	img.product {
+		border-radius: 20px 20px 0 0;
+		
+	}
+	/* On mouse-over, add a deeper shadow */
+	
+	.product-card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+	}
+	/* Add some padding inside the card container. positioned info button on card */
+	
+	.product-card a .info-button, .product-card-spc a .info-button {
+		   position: absolute;
+    bottom:  5%;
+    right: 5%;}
+    
+    .product-card a .info-button-item, .product-card-spc a .info-button-item {
+		   position: absolute;
+    bottom:  5%;
+    right: 7%;
+    width:20px;}
+	
+	.product-details {
+		
+		padding: 10px 16px;
+	}
+	/*.product-details ul li {list-style: none;
+display: block; float: left;
+}
+
+.product-details ul li a {padding: 5px;}*/
+	/* #Product Modal
+================================================== */
+	
+	.product-card a img, .product-card-spc a img {
+		width: 24px;
+	}
+	/* info image*/
+	
+	.modalDialog {
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 99999;
+		opacity: 0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+	.modalDialog img {
+		width: 65%;
+	}
+	.modalDialog:target {
+		opacity: 1;
+		pointer-events: auto;
+	}
+	.modalDialog>div {
+		width: 40%;
+		position: relative;
+		margin: 25px auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #fff;
+	}
+	 
+	.modal-close {
+		color: black;
+		font-size: 40px;
+		position: absolute;
+		right: 12px;
+		text-decoration: none;
+	}
+	.modal-close:hover {
+		color: red;
+	}
+	.stock-warning {
+		font-size: 16px;
+		color: red;
+	}
+	.price-reg, .modal-header,  .modalDialog label{
+	color: black;}
+	
+	
+	.sale {
+		color: red;
+	}
+	.add2cart {
+		background-color: red;
+		border: none;
+		color: white;
+		padding: 8px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	input.quan {
+		width: 5%;
+	}
+	@media screen and (max-width: 479px) {
+		.modalDialog>div {
+			width: 80%
+		}
+		.modalDialog img {
+			width: 75%;
+		}
+	}
+	/* #LOCATION - GOOGLE MAPS
+================================================== */
+	
+	#map {
+		width: 400px;
+		height: 400px;
+		background: #2e5e84;
+		border-width: 4px;
+		border-color: #2e5e84;
+		border-style: solid;
+	}
+	@media screen and (max-width: 479px) {
+		#map {
+			width: 300px;
+			height: 300px;
+		}
+	}
+	/* #Footer
+================================================== */
+	
+	footer p, footer a {
+		color: #000000;
+		font-size: 10px;
+	}
+	footer a:hover {
+		color: #ccc;
+	}
+	.copyright, .copyright a {
+		font-size: 9px;
+	}

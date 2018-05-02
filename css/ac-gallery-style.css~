@@ -1,0 +1,264 @@
+/* page css */
+/* General  Style */
+body{
+	font-family: "Courier New", Courier, monospace;
+	background: #F5EDDA url(../images/bg/grid-tile.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #393b40;
+	overflow-y: scroll;
+}
+
+.clr{
+	clear: both;
+}
+
+/* Header Style */
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+.gallery-top, .gallery-bottom{
+	line-height: 30px;
+	font-size: 11px;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.gallery-top a, .gallery-bottom a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.gallery-top a:hover, .gallery-bottom a:hover{
+	background: #fff;
+}
+.gallery-top span.right, .gallery-bottom span.right{
+	float: right;
+}
+.gallery-top span.right a, .gallery-bottom span.right a{
+	float: left;
+	display: block;
+}
+.fa-home {
+	color: #999;
+	font-size: 22px;
+		position: absolute;
+top 2%;
+left: 50%;}
+/*.top-home {
+
+	position: absolute;
+top 2%;
+left: 50%;}*/
+
+.gallery-bottom{
+	background: rgb(255, 255, 255);
+  position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; 
+    width: 100%;
+}
+
+//*.bottom-home {
+	
+	position: absolute;
+top 2%;
+left: 50%;}*/
+
+@media screen and (min-width: 479px) {
+div.gallery-bottom {display: none;}
+}
+
+
+@media screen and (max-width: 479px) {
+.top-prev-nxt, .gal-title, .gallery-top {display: none;}
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+}
+
+/*accordion css*/
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.gal-title {text-align: center;
+margin-top: 2%;
+}
+.gal-container{
+	width: 100%;
+	margin: 10px auto 30px auto;
+	text-align: left;
+	border: solid 6px #f1eee9;
+}
+
+.oatmeal {	font-family: 'Handlee', cursive;
+font-size: 24px;
+font-weight: bold;
+margin-top: 12%;
+
+}
+.gal-container label{
+	font-family: 'Handlee', cursive;
+	font-weight: bold;
+	padding: 5px 20px;
+	/*position: relative;*/
+	z-index: 20;
+	display: block;
+	cursor: pointer;
+	font-size: 15px;
+	background: #f3f4ef;
+	border: 1px solid #ccc;
+	color: #084B8A;
+}
+.gal-container label:hover{
+	background: #fff;
+}
+.gal-container input:checked + label,
+.gal-container input:checked + label:hover{
+	background: #c6e1ec;
+	color: #3d7489;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+/*.gal-container label:hover:after,
+.gal-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 3px;
+	background: transparent url(../images/arrow_down.png) no-repeat center center;	
+}
+.gal-container input:checked + label:hover:after{
+	background-image: url(../images/arrow_up.png);
+}*/
+
+
+/*relative to the article */
+/*.open-modal-port {
+	background-color: fuchsia;
+	position: absolute;
+	top: 33%;
+	right:  25%;
+	color: #999;
+	font-size: 12px;
+	
+}*/
+
+	@media screen and (max-widt) {
+		/*relative to the article */
+/*.open-modal-port {
+	position: absolute;
+	top: 30%;
+	right:  25%;
+
+	
+}*/
+	}
+.gal-container input{
+	display: none;
+}
+.gal-container article{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	text-align: center;
+/*	position: relative;*/
+	z-index: 10;
+	transition: 0.3s;
+}
+article p {text-align: left;}
+
+.gal-container article p{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	color: #000;
+		font-size: 14px;
+	padding: 10px 20px 0 20px;
+	line-height: 1.2;
+	
+}
+.gal-container input:checked ~ article{
+	transition: 0.3s;
+		box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+
+}
+
+/*a.enlarge .fa:first-child {position: absolute;
+ 	background-color: tomato;
+ 	
+ 
+ }*/
+
+
+.ac-gal-img {
+	
+/*position: relative;*/
+	width: 110px;
+	height: 110px;
+  display: inline-block;
+    margin: 5px auto 0 auto;
+    border: solid 4px #f1eee9;
+    line-height: 0;
+   
+}
+/*.ac-gal-img + i{position: absolute;
+top: 33%;
+right: 0;
+}*/
+
+.enlarge {position: relative;
+line-height: 0;}
+	a.enlarge  .fa:first-child {
+text-decoration: none;
+position: absolute;
+padding:3px;
+  background: 	 #f2f2f2;
+  border: 1px solid #999;
+ /* opacity: 0.7;*/
+  color: #666;
+    border-radius: 25%;
+    bottom: 5px;
+    right: 5px;
+    z-index: 20;
+
+} 
+
+.gal-container input:checked ~ article {
+	height: 22rem;
+}
+
+.modalDialog p {margin-bottom: .75rem;}
+/* #Footer
+================================================== */
+
+
+footer a:hover {
+	color: #BBBBBB;
+}
+.footer {
+	text-align: center;
+	font-size: .75rem;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.modal-hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
