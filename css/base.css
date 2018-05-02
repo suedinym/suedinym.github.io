@@ -106,6 +106,8 @@ p {
 		text-align: center;
 		margin: 1% 0;
 	}
+	.copy, .copy a{color: white;}
+	 
 
 	@media (min-width: 550px){
 			.s1, .u1, .s2, .a1, .n1, .j1, .e1, .n2, .s3, .e2, .n3 {

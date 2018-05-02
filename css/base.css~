@@ -104,8 +104,10 @@ p {
 	}
 	.myname {
 		text-align: center;
-		margin: 15% 0;
+		margin: 1% 0;
 	}
+	.copy,a.copy{color: white;}
+	 
 
 	@media (min-width: 550px){
 			.s1, .u1, .s2, .a1, .n1, .j1, .e1, .n2, .s3, .e2, .n3 {
@@ -469,6 +471,7 @@ li.right a {
 	display: inline-block;
 	width: 100%;
 
+}
 }
 /* Larger than mobile */
 @media (min-width: 400px) {
