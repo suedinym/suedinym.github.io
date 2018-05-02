@@ -42,8 +42,8 @@ jQuery(document).ready(function() {
  });*/
  
  </script>
-    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58e69529e8a8fc0011f8203f&product=sticky-share-buttons"></script>
-</head>
+  <!--  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58e69529e8a8fc0011f8203f&product=sticky-share-buttons"></script>
+</head>-->
 <body>
 	
 		<!--  top bar -->
@@ -449,9 +449,9 @@ jQuery(document).ready(function() {
 	<footer>
 		<div class="footer-container centertxt">
 		
-    		<p class="footer">Unless otherwise noted, all photography and artwork on this website is copyrighted<br> and is not to be used without the permission of the copyright holder. 
-    		</br> &copy; Susan Jensen 2000-2014 <a href="http://suedinym.com">www.suedinym.com</a>
-    		</br> All Rights Reserved
+    		<p class="footer">Unless otherwise noted, all photography and artwork on this website is copyrighted and is not to be used without the permission of the copyright holder. 
+    		<br> &copy;  <a href="https://suedinym.github.io/portfolio.html">Susan Jensen </a>2000-2014 
+    		<br> All Rights Reserved
     		<br>
 			<a href="https://suedinym.github.io/credits.html" target="blank">Credits</a></p> 
 		</div>
